@@ -20,7 +20,8 @@ Der Nutzer hat ein interaktives Judo/BJJ-Bodentechniknetz aus einer umfangreiche
 
 ## Aktueller realer Datensatz
 
-- 8 Einstiege, 32 Haupttechniken, 162 gerichtete Kanten, 39 benannte Einstiegsmethoden, 30 Beispielketten und 21 Quellen-URLs.
+- 8 Einstiege, 32 Haupttechniken, 164 gerichtete Kanten, 39 benannte Einstiegsmethoden, 30 Beispielketten und 34 Quellen-URLs.
+- 13 neu geprüfte Quellen sind zusätzlich in `sourceCatalog` mit Herausgeber, Typ, Prüfdatum und Reichweite erfasst; 11 Kanten tragen direkte Videonachweise.
 - Techniken und Aliasse in `data/project-data.json`.
 - Quelle der historischen Lehrmethoden ist das bestehende Rechercheprojekt; keine vollständige erneute externe Verifikation in diesem Export.
 - Achtung: Ein „aus Quellen abgeleiteter“ Einzelübergang ist **nicht** gleichzusetzen mit einer praktisch erprobten langen Kette.
@@ -31,7 +32,7 @@ Der Nutzer hat ein interaktives Judo/BJJ-Bodentechniknetz aus einer umfangreiche
 
 ## Mögliche nächste Verbesserungen
 
-- **Fachliche Qualität:** Provenienz pro Kante (`sourceIds`, `evidenceLevel`, `positionFrom`, `positionTo`), Quellen einzeln validieren; historische/unsichere Zuordnungen verbessern.
+- **Fachliche Qualität:** die vorhandene Kanten-Provenienz (`edges[].evidence`) auf weitere Kanten ausweiten, insbesondere mit Positionsangaben (`positionFrom`, `positionTo`); historische/unsichere Zuordnungen verbessern.
 - **Kettenlogik:** Positionskompatibilität der Übergänge prüfen; Ketten nach Einstieg und Technikgruppe suchen; Zyklen sichtbar kennzeichnen; automatische Vorschläge mit Abwehrreaktionen.
 - **UI:** SVG-Layout bei 162+ Kanten entwirren, bessere Touch-Bedienung, Werkzeugleiste für Pfade, farbige Richtungsfilter und selektive Kantenanzeige.
 - **Datenpflege:** Editor für neue Techniken/Übergänge, Duplikatprüfung, Import/Export, Quellenpflege; JSON-Schema.

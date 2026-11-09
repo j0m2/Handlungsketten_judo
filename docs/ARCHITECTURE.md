@@ -13,8 +13,10 @@ judo-bodentechniknetz/
 │   └── app.js                 # Original-JS mit DATA-Platzhalter
 ├── data/
 │   ├── project-data.json      # vollständiger Technikgraph / Recherche-Daten
+│   ├── build-info.json        # zuletzt erzeugte Versions- und Datumsangabe
 │   └── custom-chains.example.json
 ├── scripts/build.py          # erzeugt index.html
+├── Makefile                   # build/test/check/deploy-Abläufe
 ├── tests/test_project.py     # Datenintegrität und Build-Reproduzierbarkeit
 ├── docs/                     # Projekt- und Rechercheunterlagen
 ├── AGENTS.md                  # Arbeitsanweisungen für Codex
@@ -24,7 +26,7 @@ judo-bodentechniknetz/
 
 ## Build
 
-`scripts/build.py` liest das HTML-Template, bettet `styles.css` ein und ersetzt in `app.js` `__JUDO_DATA_JSON__` durch das kompakte JSON aus `data/project-data.json`. Danach bettet es den vollständigen JavaScript-Text in die Seite ein. `index.html` muss dadurch weiterhin **ein einziges portables Dokument** bleiben. Mit `--check` wird geprüft, ob sie zum Quellstand passt.
+`scripts/build.py` liest das HTML-Template, bettet `styles.css` ein und ersetzt in `app.js` `__JUDO_DATA_JSON__` durch das kompakte JSON aus `data/project-data.json`. Version und Datum kommen aus `data/build-info.json`; `make deploy` setzt beide Werte neu. Danach bettet es den vollständigen JavaScript-Text in die Seite ein. `index.html` muss dadurch weiterhin **ein einziges portables Dokument** bleiben. Mit `--check` wird geprüft, ob sie zum Quellstand passt.
 
 ## Datenmodell
 
@@ -33,6 +35,7 @@ judo-bodentechniknetz/
 - `methods`: eigenständig benannte Umdreher/Angriffe aus Startpositionen, teilweise ohne sicheres Ziel (`target: null`)
 - `chains`: Beispiele, deren IDs und Kantenfolge überprüft werden
 - `sources`: Label → URL der bisherigen Recherche
+- `sourceCatalog`: strukturierte Angaben zu neu geprüften Quellen; `edges[].evidence` verweist darauf
 
 Siehe `docs/DATA_MODEL.md` für Felddefinitionen.
 
@@ -49,7 +52,7 @@ Gespeicherte individuelle Ketten: LocalStorage-Schlüssel `judo_offline_saved_ch
 ## Bekannte Grenzen
 
 - Darstellung vieler Verbindungen kann visuell dicht sein.
-- Es gibt keine per-Kante nachprüfbare Quellen-ID im aktuellen Datenmodell.
+- Erst 11 von 164 Kanten haben einen strukturierten Einzelnachweis; die übrigen Kanten benötigen weiterhin Quellenprovenienz.
 - Nicht jeder BJJ-Begriff ist eindeutig auf Kodokan-Nomenklatur abbildbar.
 - Einige Ketten sind konzeptionell aus Einzelübergängen konstruiert, nicht praktisch als Ganzes validiert.
 - Eine Änderung der Node-IDs kann bestehende private Benutzerketten ungültig machen.

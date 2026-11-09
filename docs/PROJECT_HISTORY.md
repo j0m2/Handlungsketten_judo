@@ -6,7 +6,7 @@
 - Anschließend entstanden offline exportierbare HTML-Versionen, ein Ketteneditor und ein JSON-Import/-Export.
 - Full Guard (Uke in Beinschere) und Half Guard (Uke in Beinklammer) wurden konkretisiert und zusätzliche Übergänge integriert.
 - Der Startpunkt „Tori in Oberlage“ entfiel. Neu: „Uke in Bankposition (Turtle)“ und „Uke in Bauchlage (Prone)“. Benannte Judo-Umdreher/Angriffe wurden ergänzt.
-- Beschreibungen für alle 162 Verbindungen wurden aufgenommen.
+- Beschreibungen für alle 162 ursprünglichen Verbindungen wurden aufgenommen; anschließend kamen zwei quellenmarkierte Verbindungen hinzu.
 - Das Projekt wurde als statisches GitHub-Pages-Repository bereitgestellt.
 - **Mit diesem Export** ist die funktionierende Ein-Datei-App in editierbare Quelldateien und einen reproduzierbaren Build für Codex überführt worden.
 

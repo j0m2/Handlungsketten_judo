@@ -8,6 +8,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / 'data/project-data.json').read_text(encoding='utf-8'))
 BUILD_INFO = json.loads((ROOT / 'data/build-info.json').read_text(encoding='utf-8'))
+SOURCE_CATALOG = DATA['sourceCatalog']
+EVIDENCE_LEVELS = {'direct-video-chapter', 'direct-video-description'}
 
 class ProjectTests(unittest.TestCase):
     def setUp(self):
@@ -63,6 +65,29 @@ class ProjectTests(unittest.TestCase):
 
     def test_sources_have_http_urls(self):
         self.assertTrue(all(url.startswith(('https://','http://')) for url in DATA['sources'].values()))
+
+    def test_source_catalog_and_edge_evidence(self):
+        self.assertGreaterEqual(len(SOURCE_CATALOG), 13)
+        for source_id, source in SOURCE_CATALOG.items():
+            with self.subTest(source_id=source_id):
+                self.assertTrue(source_id)
+                self.assertIn(source['label'], DATA['sources'])
+                self.assertEqual(source['url'], DATA['sources'][source['label']])
+                self.assertTrue(source['publisher'].strip())
+                self.assertIn(source['reviewStatus'], {'context-only', 'direct-transition'})
+                self.assertTrue(source['notes'].strip())
+        annotated_edges = [edge for edge in DATA['edges'] if 'evidence' in edge]
+        self.assertGreaterEqual(len(annotated_edges), 11)
+        for edge in annotated_edges:
+            with self.subTest(edge=(edge['a'], edge['b'])):
+                self.assertTrue(edge['evidence'])
+                for evidence in edge['evidence']:
+                    self.assertIn(evidence['sourceId'], SOURCE_CATALOG)
+                    self.assertTrue(evidence['locator'].strip())
+                    self.assertIn(evidence['evidenceLevel'], EVIDENCE_LEVELS)
+                    self.assertRegex(evidence['reviewedAt'], r'^\d{4}-\d{2}-\d{2}$')
+        self.assertIn(('s6', 'k3'), self.edge_pairs)
+        self.assertIn(('s7', 'k0'), self.edge_pairs)
 
     def test_build_info_is_present(self):
         self.assertTrue(BUILD_INFO['version'].strip())
