@@ -2,6 +2,8 @@
 
 Interaktive, statische Webanwendung für die Recherche und Planung von Technikfolgen im Judo mit zusätzlichen Übergängen aus dem BJJ.
 
+https://j0m2.github.io/Handlungsketten_judo/
+
 ## Funktionen
 
 - Acht Startpositionen, darunter Banklage (Turtle), Bauchlage, Full Guard und Half Guard.
