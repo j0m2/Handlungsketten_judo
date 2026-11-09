@@ -1,8 +1,6 @@
 # Quellenindex aus dem vorhandenen Projektdatensatz
 
-Die folgende erste Liste enthält die ursprünglich übernommenen Quellen aus `data/project-data.json`. **Diese URLs wurden für den ursprünglichen Export nicht erneut online geprüft; ihre fachliche Eignung, Erreichbarkeit und exakte Belegstelle sind daher zu validieren.** Auf Übergangs-Ebene ist der Nachweis bisher oft nur allgemein.
-
-Die gezielte Quellenrecherche vom 09.11.2026 ist davon getrennt dokumentiert: [Rechercheprotokoll](RESEARCH_PROTOCOL.md). Ihre 13 Quellen sind im Datenfeld `sourceCatalog` strukturiert erfasst; 11 Kanten enthalten direkte Video-Fundstellen.
+Alle in der Website gelisteten Quellen aus `data/project-data.json` sind hier zusammengefasst.
 
 - **BJJ TV – Closed Guard Submissions** — https://bjj.tv/closed-guard-submissions-armbar-triangle-kimura/
 - **Randori – Cross choke → Armbar → Triangle** — https://randoriapp.com/learn/bjj/systems/closed-guard-attacks-chain-gi
@@ -26,7 +24,7 @@ Die gezielte Quellenrecherche vom 09.11.2026 ist davon getrennt dokumentiert: [R
 - **JudoHD – Anwendungsaufgaben Boden** — https://judohd.de/web-app/gelb/anwendungsaufgaben-boden/
 - **DJJV – Tate-shiho und Mount** — https://technikum.djjv.de/index.php?title=Haltetechnik_in_Reitposition
 
-## Neu geprüfter Korpus vom 09.11.2026
+## Weitere Quellen
 
 - **DJB – Kyu-Grundprogramm Boden (2024)** — https://www.judobund.de/fileadmin/user_upload/judobund.de/Downloads/Downloadcenter/Kyu-Graduierungen/Kyu_Grundprogramm_Boden_Druckversion2024_klein_240504.pdf
 - **DJB – Rahmentrainingskonzeption (aktuelle URL)** — https://assets.judobund.de/public/uploads/rahmentrainingskonzeption-djb.pdf
@@ -41,3 +39,19 @@ Die gezielte Quellenrecherche vom 09.11.2026 ist davon getrennt dokumentiert: [R
 - **YouTube – Modesto Judo Club: Turtle → Ude-garami** — https://www.youtube.com/watch?v=WyOh3gZrPgQ
 - **YouTube – Honmoku Judo Club: Turtle → Sankaku-jime** — https://www.youtube.com/watch?v=DFqD22pVNY4
 - **YouTube – Sampson Judo: Turtle → Okuri-eri-jime** — https://www.youtube.com/watch?v=Aa94RTn6bOA
+
+## Weitere internationale Verbandsquellen
+
+- **Judo Canada – Tournament Policy & Ne-waza** — https://judocanada.org/tournament-policy-ne-waza-2/
+- **British Judo – Contest Rules (2026)** — https://www.britishjudo.org.uk/wp-content/uploads/2026/02/20260221-BJA-Contest-Rules_Final.pdf
+- **British Judo – GB Judo Trademarks** — https://www.britishjudo.org.uk/gb-judo/explore/gb-judo-trademarks/
+- **Judo Australia – Junior Ne-waza Safety Rules (2025)** — https://www.ausjudo.com.au/wp-content/uploads/2025/08/2025-JA-junior-rules-U11-and-U13.pdf
+- **JBN – Ne-waza-Reglement** — https://jbn.nl/media/48307-Ne-Waza-reglement
+- **JBN – Dan-Prüfungsanforderungen** — https://jbn.nl/media/32835-Bijlage-2-VAARDIGHEIDSEISEN-DANEXAMEN-JUDO-1e-tm-5e-dan
+- **France Judo – 4 clés du Ne-waza** — https://www.ffjudo.com/actualite/ne-waza-les-4-cles-dalexis-mathieu-90kg-pour-progresser-en-judo-au-sol
+- **JudoScotland – Player Development Blueprint** — https://www.judoscotland.com/wp-content/uploads/2022/08/The-Judo-Scotland-Blueprint-web.pdf
+- **JudoScotland – 3rd–2nd Kyu Syllabus** — https://www.judoscotland.com/wp-content/uploads/2024/10/3rd-Kyu-2nd-Kyu-PF.pdf
+- **JudoScotland – 4th–6th Mon Syllabus** — https://www.judoscotland.com/wp-content/uploads/2024/10/4th-6th-Mon-PF.pdf
+- **Irish Judo Association – National Squad Programme (2023)** — https://irishjudoassociation.ie/wp-content/uploads/2023/02/2023-IJA-National-Squad-Programme.pdf
+- **CBJ – Ne-waza Technique Videos** — https://cbj.com.br/pt/noticias/videos-de-tecnicas-ne-waza/
+- **CBJ – National Technical Seminar (2025)** — https://cbj.com.br/public/uploads/documentos/20250128144429cbj-novas-regras-2025-3.pdf

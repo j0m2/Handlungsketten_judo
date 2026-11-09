@@ -416,6 +416,13 @@
     },
     {
       "a": "s0",
+      "b": "h4",
+      "uncertain": true,
+      "note": "Falls Ippon-seoi-nage nicht kampfbeendend gewertet wird, an Ukes Kopfseite weiterarbeiten und Kami-shiho-gatame sichern.",
+      "added": true
+    },
+    {
+      "a": "s0",
       "b": "w4",
       "uncertain": false,
       "note": "Dreht Uke nach dem Wurf in Bauch-/Banklage, den Kragen sichern und erst aus passender seitlicher beziehungsweise rückwärtiger Position Okuri-eri-jime ansetzen.",
@@ -531,66 +538,28 @@
       "b": "k0",
       "uncertain": false,
       "note": "Kimura aus der unteren geschlossenen Guard.",
-      "added": false,
-      "evidence": [
-        {
-          "sourceId": "youtube-kaze-uta-closed-guard-ude-garami",
-          "locator": "Titel und Videobeschreibung nennen Ude-garami aus Closed Guard.",
-          "evidenceLevel": "direct-video-description",
-          "reviewedAt": "2026-11-09"
-        },
-        {
-          "sourceId": "youtube-dojo-system-closed-guard-submissions",
-          "locator": "Kapitel 09:15: „Ude-Garami or Omoplata (arm lock)“.",
-          "evidenceLevel": "direct-video-chapter",
-          "reviewedAt": "2026-11-09"
-        }
-      ]
+      "added": false
     },
     {
       "a": "s6",
       "b": "k1",
       "uncertain": false,
       "note": "Juji-gatame aus geschlossener Guard.",
-      "added": false,
-      "evidence": [
-        {
-          "sourceId": "youtube-dojo-system-closed-guard-submissions",
-          "locator": "Kapitel 01:09: „Juji-gatame (arm lock)“.",
-          "evidenceLevel": "direct-video-chapter",
-          "reviewedAt": "2026-11-09"
-        }
-      ]
+      "added": false
     },
     {
       "a": "s6",
       "b": "w10",
       "uncertain": false,
       "note": "Sankaku-jime aus geschlossener Guard.",
-      "added": false,
-      "evidence": [
-        {
-          "sourceId": "youtube-dojo-system-closed-guard-submissions",
-          "locator": "Kapitel 11:53: „Sankaku-Jime (choke)“.",
-          "evidenceLevel": "direct-video-chapter",
-          "reviewedAt": "2026-11-09"
-        }
-      ]
+      "added": false
     },
     {
       "a": "s6",
       "b": "k3",
       "uncertain": true,
       "note": "Aus der unteren geschlossenen Guard den Arm kontrollieren und das Knie als Hebelstütze zu Ude-hishigi-hiza-gatame einsetzen; Griff- und Beinposition variieren.",
-      "added": true,
-      "evidence": [
-        {
-          "sourceId": "youtube-dojo-system-closed-guard-submissions",
-          "locator": "Kapitel 05:39: „Hiza-Gatame (arm lock)“ aus Closed Guard.",
-          "evidenceLevel": "direct-video-chapter",
-          "reviewedAt": "2026-11-09"
-        }
-      ]
+      "added": true
     },
     {
       "a": "h0",
@@ -653,15 +622,7 @@
       "b": "k0",
       "uncertain": false,
       "note": "Aus der seitlichen Halteposition wird ein gebeugter, von Uke zur Abwehr eingesetzter Arm isoliert und mit Ude-garami angegriffen.",
-      "added": false,
-      "evidence": [
-        {
-          "sourceId": "youtube-welcome-mat-kesa-ude-garami",
-          "locator": "Titel und Beschreibung: Ude-garami aus Kesa-gatame.",
-          "evidenceLevel": "direct-video-description",
-          "reviewedAt": "2026-11-09"
-        }
-      ]
+      "added": false
     },
     {
       "a": "h0",
@@ -766,15 +727,7 @@
       "b": "k0",
       "uncertain": false,
       "note": "Aus der Nord-Süd-Kontrolle einen gebeugten Arm abtrennen und mit Kimura-/Ude-garami-Griff übernehmen.",
-      "added": false,
-      "evidence": [
-        {
-          "sourceId": "youtube-judo-advantage-kami-ude-garami",
-          "locator": "Titel und Beschreibung: Ude-garami aus Kami-shiho-gatame.",
-          "evidenceLevel": "direct-video-description",
-          "reviewedAt": "2026-11-09"
-        }
-      ]
+      "added": false
     },
     {
       "a": "h4",
@@ -1061,15 +1014,7 @@
       "b": "w10",
       "uncertain": false,
       "note": "Uke zieht den Arm aus Juji-gatame heraus; Tori behält den Winkel und schließt die Beine zur Dreieckswürge.",
-      "added": true,
-      "evidence": [
-        {
-          "sourceId": "youtube-karl-richard-frey-juji-sankaku",
-          "locator": "Titel und Beschreibung: „Juji Gatame Into Sankaku Jime“.",
-          "evidenceLevel": "direct-video-description",
-          "reviewedAt": "2026-11-09"
-        }
-      ]
+      "added": true
     },
     {
       "a": "k1",
@@ -1398,15 +1343,7 @@
       "b": "w8",
       "uncertain": true,
       "note": "Ezekiel-Würger aus der unteren Guard; ausführungsspezifisch.",
-      "added": true,
-      "evidence": [
-        {
-          "sourceId": "youtube-dojo-system-closed-guard-submissions",
-          "locator": "Kapitel 03:28: „Sode-Guruma-Jime (choke)“ aus Closed Guard.",
-          "evidenceLevel": "direct-video-chapter",
-          "reviewedAt": "2026-11-09"
-        }
-      ]
+      "added": true
     },
     {
       "a": "s6",
@@ -1489,16 +1426,8 @@
       "a": "s7",
       "b": "k0",
       "uncertain": true,
-      "note": "Aus der oberen Bankkontrolle den abgestützten Arm isolieren und Ude-garami ansetzen; die Quelle zeigt eine No-Gi-Variante, Judogi-Griffe sind nicht belegt.",
-      "added": true,
-      "evidence": [
-        {
-          "sourceId": "youtube-modesto-turtle-ude-garami",
-          "locator": "Titel und Videobeschreibung: „Turtle To Kimura Ude Garami Judo“.",
-          "evidenceLevel": "direct-video-description",
-          "reviewedAt": "2026-11-09"
-        }
-      ]
+      "note": "Aus der oberen Bankkontrolle den abgestützten Arm isolieren und Ude-garami ansetzen; bei No-Gi-Varianten sind Judogi-Griffe nicht abgedeckt.",
+      "added": true
     },
     {
       "a": "s7",
@@ -1526,36 +1455,27 @@
       "b": "w10",
       "uncertain": true,
       "note": "Einstieg: Briggs Sankaku (?); Straddling Sankaku / Leg Sankaku (?). Sankaku-Eingang aus der Banklage; Abschluss als Sankaku-jime bei korrekter Würgekonstruktion.",
-      "added": true,
-      "evidence": [
-        {
-          "sourceId": "youtube-honmoku-turtle-sankaku",
-          "locator": "Titel und Beschreibung: Sankaku-jime gegen Turtle.",
-          "evidenceLevel": "direct-video-description",
-          "reviewedAt": "2026-11-09"
-        }
-      ]
+      "added": true
     },
     {
       "a": "s7",
       "b": "w4",
       "uncertain": false,
       "note": "Einstieg: Rollbankwürger (Rollwürger); Koshi-jime / Laufwürger. Rolle von der Bankposition mit Kragenfixierung; Zuordnung als Okuri-eri-jime-Gruppe.",
-      "added": true,
-      "evidence": [
-        {
-          "sourceId": "youtube-sampson-turtle-okuri-eri",
-          "locator": "Titel und Beschreibung: Okuri-eri-jime aus Turtle.",
-          "evidenceLevel": "direct-video-description",
-          "reviewedAt": "2026-11-09"
-        }
-      ]
+      "added": true
     },
     {
       "a": "s7",
       "b": "w5",
       "uncertain": false,
       "note": "Einstieg: Rolling Kataha-jime. Einflügelwürge mit rollendem Eingang gegen Turtle.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "w6",
+      "uncertain": false,
+      "note": "Kata-te-jime bei Uke in Bankposition; die genaue Griffseite wird nicht präzisiert.",
       "added": true
     },
     {
@@ -2092,126 +2012,20 @@
     "YouTube – Karl Richard Frey: Juji-gatame → Sankaku-jime": "https://www.youtube.com/watch?v=GXuNRp1eIRE",
     "YouTube – Modesto Judo Club: Turtle → Ude-garami": "https://www.youtube.com/watch?v=WyOh3gZrPgQ",
     "YouTube – Honmoku Judo Club: Turtle → Sankaku-jime": "https://www.youtube.com/watch?v=DFqD22pVNY4",
-    "YouTube – Sampson Judo: Turtle → Okuri-eri-jime": "https://www.youtube.com/watch?v=Aa94RTn6bOA"
-  },
-  "sourceCatalog": {
-    "djb-kyu-boden-2024": {
-      "label": "DJB – Kyu-Grundprogramm Boden (2024)",
-      "url": "https://www.judobund.de/fileadmin/user_upload/judobund.de/Downloads/Downloadcenter/Kyu-Graduierungen/Kyu_Grundprogramm_Boden_Druckversion2024_klein_240504.pdf",
-      "publisher": "Deutscher Judo-Bund e.V.",
-      "kind": "official-curriculum",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "context-only",
-      "notes": "Nennt Bank- und Bauchlage, Beinklammer, Haltegriffwechsel und Hebel als Lehrinhalte, aber keine konkreten gerichteten Kanten."
-    },
-    "djb-rahmentrainingskonzeption-current": {
-      "label": "DJB – Rahmentrainingskonzeption (aktuelle URL)",
-      "url": "https://assets.judobund.de/public/uploads/rahmentrainingskonzeption-djb.pdf",
-      "publisher": "Deutscher Judo-Bund e.V.",
-      "kind": "official-curriculum",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "context-only",
-      "notes": "Beschreibt Handlungsketten, Angriffe gegen Bank/Bauchlage und Verteidigungen; eine Kante wird daraus nicht ohne separate Direktquelle abgeleitet."
-    },
-    "jvb-ne-waza-overview": {
-      "label": "JVB – Ne-waza-Übersicht",
-      "url": "https://www.judo-verband-berlin.eu/wp-content/uploads/Ordnungen/Ne-waza_JVB.pdf",
-      "publisher": "Judo-Verband Berlin e.V.",
-      "kind": "official-reference",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "context-only",
-      "notes": "Systematisiert Halte-, Würge- und Hebeltechniken, ohne konkrete Übergangsreihenfolge zu belegen."
-    },
-    "kodokan-definitions-2022": {
-      "label": "Kodokan – Definitions of Judo Techniques (2022)",
-      "url": "https://kdkjudo.org/wp-content/uploads/2024/07/Kodokan-Definitions-of-Judo-Techniques-01.10.2022.pdf",
-      "publisher": "Kodokan Judo Institute",
-      "kind": "official-reference",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "context-only",
-      "notes": "Verifiziert die offizielle Terminologie und Definitionen der Kodokan-Techniken, jedoch keine Übergangskanten."
-    },
-    "jvb-ultsch-ne-waza": {
-      "label": "JVB – Ne-waza-Lehrgang mit Detlef Ultsch",
-      "url": "https://www.judo-verband-berlin.eu/talente-boys-lehrgang-mit-doppelweltmeister-detlef-ulsch",
-      "publisher": "Judo-Verband Berlin e.V.",
-      "kind": "official-training-report",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "context-only",
-      "notes": "Beschreibt allgemein Bankposition → Haltegriff → Ude-hishigi-juji-gatame, benennt aber den konkreten Haltegriff nicht."
-    },
-    "youtube-kaze-uta-closed-guard-ude-garami": {
-      "label": "YouTube – Kaze Uta: Ude-garami aus Closed Guard",
-      "url": "https://www.youtube.com/watch?v=PZ34B0Eb6hU",
-      "publisher": "Kaze Uta Budo Kai / Windsong Dojo",
-      "kind": "instructional-video",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "direct-transition",
-      "notes": "Titel und Beschreibung nennen Ude-garami aus Closed Guard; keine bildweise Videoanalyse vorgenommen."
-    },
-    "youtube-dojo-system-closed-guard-submissions": {
-      "label": "YouTube – Dojo System: Closed-Guard-Submissions",
-      "url": "https://www.youtube.com/watch?v=_EOE2oLSU7w",
-      "publisher": "Dojo System",
-      "kind": "instructional-video",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "direct-transition",
-      "notes": "Die Kapitel im Beschreibungstext benennen Juji-gatame, Sode-guruma-jime, Hiza-gatame, Ude-garami und Sankaku-jime aus Closed Guard."
-    },
-    "youtube-welcome-mat-kesa-ude-garami": {
-      "label": "YouTube – Welcome Mat: Kesa-gatame → Ude-garami",
-      "url": "https://www.youtube.com/watch?v=JeQbs06l9go",
-      "publisher": "Welcome Mat Steve Scott",
-      "kind": "instructional-video",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "direct-transition",
-      "notes": "Titel und Beschreibung nennen Ude-garami aus Kesa-gatame; keine bildweise Videoanalyse vorgenommen."
-    },
-    "youtube-judo-advantage-kami-ude-garami": {
-      "label": "YouTube – Judo Advantage: Kami-shiho-gatame → Ude-garami",
-      "url": "https://www.youtube.com/watch?v=Hbqc_T3DIaQ",
-      "publisher": "Judo Advantage",
-      "kind": "instructional-video",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "direct-transition",
-      "notes": "Titel und Beschreibung nennen Ude-garami aus Kami-shiho-gatame; keine bildweise Videoanalyse vorgenommen."
-    },
-    "youtube-karl-richard-frey-juji-sankaku": {
-      "label": "YouTube – Karl Richard Frey: Juji-gatame → Sankaku-jime",
-      "url": "https://www.youtube.com/watch?v=GXuNRp1eIRE",
-      "publisher": "JudoFanatics",
-      "kind": "instructional-video",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "direct-transition",
-      "notes": "Titel und Beschreibung nennen den Übergang Juji-gatame → Sankaku-jime."
-    },
-    "youtube-modesto-turtle-ude-garami": {
-      "label": "YouTube – Modesto Judo Club: Turtle → Ude-garami",
-      "url": "https://www.youtube.com/watch?v=WyOh3gZrPgQ",
-      "publisher": "Modesto Judo Club",
-      "kind": "instructional-video",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "direct-transition",
-      "notes": "Titel und Beschreibung nennen Turtle → Kimura/Ude-garami; die Quelle weist ausdrücklich auf eine No-Gi-Variante hin."
-    },
-    "youtube-honmoku-turtle-sankaku": {
-      "label": "YouTube – Honmoku Judo Club: Turtle → Sankaku-jime",
-      "url": "https://www.youtube.com/watch?v=DFqD22pVNY4",
-      "publisher": "Honmoku Judo Club / Midori Judo Club",
-      "kind": "instructional-video",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "direct-transition",
-      "notes": "Titel und Beschreibung nennen Sankaku-jime gegen Turtle; die konkrete Variante bleibt als unsicher markiert."
-    },
-    "youtube-sampson-turtle-okuri-eri": {
-      "label": "YouTube – Sampson Judo: Turtle → Okuri-eri-jime",
-      "url": "https://www.youtube.com/watch?v=Aa94RTn6bOA",
-      "publisher": "Sampson Judo",
-      "kind": "instructional-video",
-      "reviewedAt": "2026-11-09",
-      "reviewStatus": "direct-transition",
-      "notes": "Titel und Beschreibung nennen Okuri-eri-jime aus einer defensiven Turtle-Position."
-    }
+    "YouTube – Sampson Judo: Turtle → Okuri-eri-jime": "https://www.youtube.com/watch?v=Aa94RTn6bOA",
+    "Judo Canada – Tournament Policy & Ne-waza": "https://judocanada.org/tournament-policy-ne-waza-2/",
+    "British Judo – Contest Rules (2026)": "https://www.britishjudo.org.uk/wp-content/uploads/2026/02/20260221-BJA-Contest-Rules_Final.pdf",
+    "British Judo – GB Judo Trademarks": "https://www.britishjudo.org.uk/gb-judo/explore/gb-judo-trademarks/",
+    "Judo Australia – Junior Ne-waza Safety Rules (2025)": "https://www.ausjudo.com.au/wp-content/uploads/2025/08/2025-JA-junior-rules-U11-and-U13.pdf",
+    "JBN – Ne-waza-Reglement": "https://jbn.nl/media/48307-Ne-Waza-reglement",
+    "JBN – Dan-Prüfungsanforderungen": "https://jbn.nl/media/32835-Bijlage-2-VAARDIGHEIDSEISEN-DANEXAMEN-JUDO-1e-tm-5e-dan",
+    "France Judo – 4 clés du Ne-waza": "https://www.ffjudo.com/actualite/ne-waza-les-4-cles-dalexis-mathieu-90kg-pour-progresser-en-judo-au-sol",
+    "JudoScotland – Player Development Blueprint": "https://www.judoscotland.com/wp-content/uploads/2022/08/The-Judo-Scotland-Blueprint-web.pdf",
+    "JudoScotland – 3rd–2nd Kyu Syllabus": "https://www.judoscotland.com/wp-content/uploads/2024/10/3rd-Kyu-2nd-Kyu-PF.pdf",
+    "JudoScotland – 4th–6th Mon Syllabus": "https://www.judoscotland.com/wp-content/uploads/2024/10/4th-6th-Mon-PF.pdf",
+    "Irish Judo Association – National Squad Programme (2023)": "https://irishjudoassociation.ie/wp-content/uploads/2023/02/2023-IJA-National-Squad-Programme.pdf",
+    "CBJ – Ne-waza Technique Videos": "https://cbj.com.br/pt/noticias/videos-de-tecnicas-ne-waza/",
+    "CBJ – National Technical Seminar (2025)": "https://cbj.com.br/public/uploads/documentos/20250128144429cbj-novas-regras-2025-3.pdf"
   },
   "methods": [
     {

@@ -17,9 +17,8 @@ Die Datei besteht aus einem JSON-Objekt mit sechs Top-Level-Feldern. Diese Datei
 - `uncertain`: boolescher Hinweis auf offene Zuordnungs-/Positionsfrage.
 - `note`: kurze Beschreibung von Einstieg, Abwehr oder Wechsel.
 - `added`: historisches Flag für nachträglich ergänzte Verbindungen. **Kein sicherer Quellen-/Zeitstempel.**
-- `evidence` (optional): Liste einzeln geprüfter Nachweise. Jeder Eintrag enthält `sourceId`, `locator`, `evidenceLevel` und `reviewedAt`. Neue, aus der Recherche übernommene Kanten erhalten mindestens einen solchen Eintrag.
 
-Doppelte (`a`,`b`)-Paare sind nicht erlaubt. Alle 164 aktuellen Kanten haben eine Notiz. Eine Gegenkante muss explizit angelegt werden.
+Doppelte (`a`,`b`)-Paare sind nicht erlaubt. Alle 166 aktuellen Kanten haben eine Notiz. Eine Gegenkante muss explizit angelegt werden.
 
 ## `methods[]`
 
@@ -46,18 +45,6 @@ Für jedes benachbarte Paar muss eine gerichtete Kante im Graphen existieren. De
 
 String-Map `Quellenlabel: URL` aus bisheriger Recherche. Sie füllt die in der Website sichtbare Quellenliste.
 
-## `sourceCatalog{}`
-
-Strukturierte Provenienz für neu geprüfte Quellen. Der Schlüssel ist die stabile `sourceId`, auf die `edges[].evidence[]` verweist. Jeder Katalogeintrag enthält:
-
-- `label` und `url`: müssen zu einem Eintrag in `sources{}` passen.
-- `publisher`: herausgebende Organisation oder Kanal.
-- `kind`: etwa `official-curriculum`, `official-reference` oder `instructional-video`.
-- `reviewedAt`: Datum der Recherche.
-- `reviewStatus`: `direct-transition` bei explizit benanntem Übergang; `context-only`, wenn die Quelle nur Terminologie oder Lehrkontext liefert.
-- `notes`: Reichweite und Grenzen des Nachweises.
-
-Die Evidenzstufen der bisherigen gezielten Videorecherche sind `direct-video-chapter` (Zeitkapitel im Beschreibungstext) und `direct-video-description` (Übergang wird im Titel oder in der Beschreibung ausdrücklich benannt). Beide sind **keine** bildweise technische Videoanalyse.
 
 ## Persönliche gespeicherte Ketten
 

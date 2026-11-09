@@ -35,7 +35,6 @@ judo-bodentechniknetz/
 - `methods`: eigenständig benannte Umdreher/Angriffe aus Startpositionen, teilweise ohne sicheres Ziel (`target: null`)
 - `chains`: Beispiele, deren IDs und Kantenfolge überprüft werden
 - `sources`: Label → URL der bisherigen Recherche
-- `sourceCatalog`: strukturierte Angaben zu neu geprüften Quellen; `edges[].evidence` verweist darauf
 
 Siehe `docs/DATA_MODEL.md` für Felddefinitionen.
 
@@ -52,7 +51,6 @@ Gespeicherte individuelle Ketten: LocalStorage-Schlüssel `judo_offline_saved_ch
 ## Bekannte Grenzen
 
 - Darstellung vieler Verbindungen kann visuell dicht sein.
-- Erst 11 von 164 Kanten haben einen strukturierten Einzelnachweis; die übrigen Kanten benötigen weiterhin Quellenprovenienz.
 - Nicht jeder BJJ-Begriff ist eindeutig auf Kodokan-Nomenklatur abbildbar.
 - Einige Ketten sind konzeptionell aus Einzelübergängen konstruiert, nicht praktisch als Ganzes validiert.
 - Eine Änderung der Node-IDs kann bestehende private Benutzerketten ungültig machen.
