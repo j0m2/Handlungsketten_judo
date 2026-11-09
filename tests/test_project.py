@@ -7,6 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / 'data/project-data.json').read_text(encoding='utf-8'))
+BUILD_INFO = json.loads((ROOT / 'data/build-info.json').read_text(encoding='utf-8'))
 
 class ProjectTests(unittest.TestCase):
     def setUp(self):
@@ -62,6 +63,10 @@ class ProjectTests(unittest.TestCase):
 
     def test_sources_have_http_urls(self):
         self.assertTrue(all(url.startswith(('https://','http://')) for url in DATA['sources'].values()))
+
+    def test_build_info_is_present(self):
+        self.assertTrue(BUILD_INFO['version'].strip())
+        self.assertTrue(BUILD_INFO['buildDate'].strip())
 
     def test_build_matches_committed_index(self):
         p=subprocess.run([sys.executable,str(ROOT/'scripts/build.py'),'--check'],cwd=ROOT,capture_output=True,text=True)

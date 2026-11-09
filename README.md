@@ -19,6 +19,12 @@ https://j0m2.github.io/Handlungsketten_judo/
 
 `index.html` kann auch direkt im Browser ohne Internet geöffnet werden. Außerdem bietet die Anwendung eine Exportfunktion für eine Offline-HTML-Datei mit den selbst erstellten Technikfolgen.
 
+## Bauen und bereitstellen
+
+`make deploy` setzt eine neue Build-Version samt Datum, erzeugt `index.html`, führt alle Tests aus und prüft anschließend den Buildstand. Die sichtbare Versionsangabe hilft beim Prüfen, ob der aktuelle Stand ausgeliefert wird. Ein Git-Push erfolgt nicht automatisch.
+
+Die Seite enthält Cache-Control-Metadaten, damit Browser die HTML-Datei möglichst nicht zwischenspeichern. Serverseitige Caches kann eine rein statische Seite jedoch nicht vollständig steuern.
+
 ## Speicherung und Datenschutz
 
 Selbst angelegte Ketten werden im **Local Storage des jeweiligen Browsers** gespeichert. Die öffentliche GitHub-Pages-Seite ist **kein gemeinsam genutzter Speicher**: Andere Besucher sehen deine lokal gespeicherten Ketten nicht und Änderungen erscheinen nicht automatisch im Repository. Verwende den JSON-Export/-Import oder eine exportierte Offline-HTML-Datei für Backups und Gerätewechsel. Löschen von Browserdaten kann lokal gespeicherte Ketten entfernen.
