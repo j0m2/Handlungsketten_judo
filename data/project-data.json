@@ -1,0 +1,2290 @@
+{
+  "nodes": [
+    {
+      "id": "s0",
+      "name": "Übergang Stand–Boden (Wurf ohne volle Wertung)",
+      "group": "start",
+      "aliases": []
+    },
+    {
+      "id": "s1",
+      "name": "Fehlgeschlagener Angriff von Tori",
+      "group": "start",
+      "aliases": []
+    },
+    {
+      "id": "s7",
+      "name": "Uke in Bankposition (Turtle)",
+      "group": "start",
+      "aliases": [
+        "Turtle",
+        "Banklage",
+        "Bankposition"
+      ]
+    },
+    {
+      "id": "s8",
+      "name": "Uke in Bauchlage (Prone)",
+      "group": "start",
+      "aliases": [
+        "Prone",
+        "Bauchlage",
+        "flach auf dem Bauch"
+      ]
+    },
+    {
+      "id": "s3",
+      "name": "Tori in Beinklammer (Top Half Guard)",
+      "group": "start",
+      "aliases": []
+    },
+    {
+      "id": "s4",
+      "name": "Tori in Beinschere (Top Closed Guard)",
+      "group": "start",
+      "aliases": []
+    },
+    {
+      "id": "s5",
+      "name": "Uke in Beinklammer (Bottom Half Guard)",
+      "group": "start",
+      "aliases": []
+    },
+    {
+      "id": "s6",
+      "name": "Uke in Beinschere (Bottom Full Guard)",
+      "group": "start",
+      "aliases": []
+    },
+    {
+      "id": "h0",
+      "name": "Kesa-gatame",
+      "group": "hold",
+      "aliases": [
+        "Hon-kesa-gatame"
+      ]
+    },
+    {
+      "id": "h1",
+      "name": "Kuzure-kesa-gatame",
+      "group": "hold",
+      "aliases": [
+        "Makura-kesa-gatame",
+        "Kashira-gatame",
+        "Kashira-kesa-gatame (?)"
+      ]
+    },
+    {
+      "id": "h2",
+      "name": "Ushiro-kesa-gatame",
+      "group": "hold",
+      "aliases": [
+        "Gyaku-kesa-gatame",
+        "Ura-kesa-gatame (?)",
+        "Reverse scarf hold"
+      ]
+    },
+    {
+      "id": "h3",
+      "name": "Kata-gatame",
+      "group": "hold",
+      "aliases": [
+        "Kuzure-kata-gatame",
+        "Gyaku-kata-gatame",
+        "Arm Triangle (BJJ, Würgeausführung)"
+      ]
+    },
+    {
+      "id": "h4",
+      "name": "Kami-shiho-gatame",
+      "group": "hold",
+      "aliases": [
+        "Ura-shiho-gatame",
+        "Hon-kami-shiho-gatame",
+        "Kami-sankaku-gatame (?)"
+      ]
+    },
+    {
+      "id": "h5",
+      "name": "Kuzure-kami-shiho-gatame",
+      "group": "hold",
+      "aliases": [
+        "Kami-sankaku-gatame (?)",
+        "Sankaku-osaekomi (?)",
+        "Gyaku-sankaku-osaekomi (?)"
+      ]
+    },
+    {
+      "id": "h6",
+      "name": "Yoko-shiho-gatame",
+      "group": "hold",
+      "aliases": [
+        "Kuzure-yoko-shiho-gatame",
+        "Mune-gatame",
+        "Kata-osae-gatame",
+        "Gyaku-yoko-shiho-gatame (?)"
+      ]
+    },
+    {
+      "id": "h7",
+      "name": "Tate-shiho-gatame",
+      "group": "hold",
+      "aliases": [
+        "Kuzure-tate-shiho-gatame",
+        "Tate-sankaku-gatame (?)",
+        "Mount (BJJ)",
+        "Full Mount",
+        "Montada",
+        "High Mount (Variante)",
+        "Low Mount (Variante)"
+      ]
+    },
+    {
+      "id": "h8",
+      "name": "Uki-gatame",
+      "group": "hold",
+      "aliases": [
+        "Knieseitvierer (?)",
+        "Knee-on-belly (?)"
+      ]
+    },
+    {
+      "id": "h9",
+      "name": "Ura-gatame",
+      "group": "hold",
+      "aliases": [
+        "Gyaku-yoko-shiho-gatame (historisch, ?)"
+      ]
+    },
+    {
+      "id": "k0",
+      "name": "Ude-garami",
+      "group": "lever",
+      "aliases": [
+        "Nami-ude-garami",
+        "Gyaku-ude-garami",
+        "Americana",
+        "Kimura",
+        "Kannuki-gatame (teilweise)",
+        "Mune-garami"
+      ]
+    },
+    {
+      "id": "k1",
+      "name": "Ude-hishigi-juji-gatame",
+      "group": "lever",
+      "aliases": [
+        "Juji-gatame",
+        "Nami-juji-gatame",
+        "Kami-juji-gatame",
+        "Gyaku-juji-gatame",
+        "Yoko-juji-gatame",
+        "Rolling armbar",
+        "Spinning armbar"
+      ]
+    },
+    {
+      "id": "k2",
+      "name": "Ude-hishigi-ude-gatame",
+      "group": "lever",
+      "aliases": [
+        "Ude-gatame",
+        "Nami-ude-gatame",
+        "Gyaku-ude-gatame",
+        "Mune-ude-gatame",
+        "Hizi-makikomi"
+      ]
+    },
+    {
+      "id": "k3",
+      "name": "Ude-hishigi-hiza-gatame",
+      "group": "lever",
+      "aliases": [
+        "Hiza-gatame",
+        "Kami-hiza-gatame",
+        "Yoko-hiza-gatame",
+        "Ryo-hiza-gatame"
+      ]
+    },
+    {
+      "id": "k4",
+      "name": "Ude-hishigi-waki-gatame",
+      "group": "lever",
+      "aliases": [
+        "Waki-gatame",
+        "Gyaku-waki-gatame",
+        "Waki-garami (?)"
+      ]
+    },
+    {
+      "id": "k5",
+      "name": "Ude-hishigi-hara-gatame",
+      "group": "lever",
+      "aliases": [
+        "Hara-gatame",
+        "Gyaku-hara-gatame",
+        "Kuzure-hara-gatame",
+        "Kesa-hara-gatame (?)"
+      ]
+    },
+    {
+      "id": "k6",
+      "name": "Ude-hishigi-ashi-gatame",
+      "group": "lever",
+      "aliases": [
+        "Ashi-gatame",
+        "Kesa-ashi-gatame",
+        "Kesa-garami (?)"
+      ]
+    },
+    {
+      "id": "k7",
+      "name": "Ude-hishigi-sankaku-gatame",
+      "group": "lever",
+      "aliases": [
+        "Sankaku-gatame",
+        "Omote-sankaku-gatame (?)",
+        "Ura-sankaku-gatame (?)"
+      ]
+    },
+    {
+      "id": "k8",
+      "name": "Ude-hishigi-te-gatame",
+      "group": "lever",
+      "aliases": [
+        "Te-gatame",
+        "Yoko-ude-hishigi (?)",
+        "Gyaku-tebuki (?)"
+      ]
+    },
+    {
+      "id": "k9",
+      "name": "Ashi-garami",
+      "group": "lever",
+      "aliases": [
+        "Beinhebel (Kodokan)",
+        "historischer deutscher Namenskonflikt mit Armhebeln"
+      ]
+    },
+    {
+      "id": "w0",
+      "name": "Nami-juji-jime",
+      "group": "choke",
+      "aliases": [
+        "Narubi-juji-jime",
+        "Narabi-juji-jime (?)"
+      ]
+    },
+    {
+      "id": "w1",
+      "name": "Gyaku-juji-jime",
+      "group": "choke",
+      "aliases": [
+        "Yoko-juji-jime",
+        "Cross-collar choke (griffabhängig)",
+        "Marhenke-Würger (?)"
+      ]
+    },
+    {
+      "id": "w2",
+      "name": "Kata-juji-jime",
+      "group": "choke",
+      "aliases": [
+        "Tomoe-jime",
+        "Ebi-jime (?)",
+        "Ura-juji-jime (?)"
+      ]
+    },
+    {
+      "id": "w3",
+      "name": "Hadaka-jime",
+      "group": "choke",
+      "aliases": [
+        "Ushiro-jime",
+        "Rear naked choke",
+        "Ebi-garami (?)"
+      ]
+    },
+    {
+      "id": "w4",
+      "name": "Okuri-eri-jime",
+      "group": "choke",
+      "aliases": [
+        "Gyaku-okuri-eri-jime",
+        "Koshi-jime",
+        "Jigoku-jime",
+        "Ohten-jime",
+        "Bow-and-arrow choke",
+        "Clock choke",
+        "Sliding collar choke"
+      ]
+    },
+    {
+      "id": "w5",
+      "name": "Kataha-jime",
+      "group": "choke",
+      "aliases": [
+        "Kaeshi-jime",
+        "Gyaku-kaeshi-jime",
+        "Gyaku-kataha-jime (?)"
+      ]
+    },
+    {
+      "id": "w6",
+      "name": "Katate-jime",
+      "group": "choke",
+      "aliases": [
+        "Ebi-jime (?)",
+        "Kami-shiho-jime (?)",
+        "Paper-cutter choke (?)"
+      ]
+    },
+    {
+      "id": "w7",
+      "name": "Ryote-jime",
+      "group": "choke",
+      "aliases": [
+        "Morote-jime",
+        "Maki-komi-jime",
+        "Kensui-jime (?)"
+      ]
+    },
+    {
+      "id": "w8",
+      "name": "Sode-guruma-jime",
+      "group": "choke",
+      "aliases": [
+        "Ezekiel choke",
+        "Ärmelradwürgen",
+        "No-gi Ezekiel (Ausführungsvariante)"
+      ]
+    },
+    {
+      "id": "w9",
+      "name": "Tsukkomi-jime",
+      "group": "choke",
+      "aliases": [
+        "Tsuki-komi-jime",
+        "Eri-tsukkomi-jime (?)"
+      ]
+    },
+    {
+      "id": "w10",
+      "name": "Sankaku-jime",
+      "group": "choke",
+      "aliases": [
+        "Mae-sankaku-jime",
+        "Yoko-sankaku-jime",
+        "Ushiro-sankaku-jime",
+        "Omote-sankaku-jime",
+        "Ura-sankaku-jime",
+        "Triangle choke",
+        "Reverse triangle"
+      ]
+    },
+    {
+      "id": "w11",
+      "name": "Do-jime",
+      "group": "choke",
+      "aliases": [
+        "Körperpresswürgen",
+        "verbotene historische Technik"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "a": "s0",
+      "b": "h1",
+      "uncertain": false,
+      "note": "Nach einem unvollständig bewerteten Wurf seitlich am Oberkörper bleiben und Kopf sowie nahen Arm in Kuzure-kesa-gatame sichern; etwa nach O-goshi.",
+      "added": false
+    },
+    {
+      "a": "s0",
+      "b": "h0",
+      "uncertain": false,
+      "note": "Nach einer seitlichen Landung unmittelbar Hüfte neben Uke absetzen und Kopf sowie Arm für Kesa-gatame kontrollieren.",
+      "added": false
+    },
+    {
+      "a": "s0",
+      "b": "h6",
+      "uncertain": false,
+      "note": "Nach dem Wurf seitlich über Ukes Oberkörper bleiben und die Brust-Schulter-Kontrolle zu Yoko-shiho-gatame ausbauen.",
+      "added": false
+    },
+    {
+      "a": "s0",
+      "b": "w4",
+      "uncertain": false,
+      "note": "Dreht Uke nach dem Wurf in Bauch-/Banklage, den Kragen sichern und erst aus passender seitlicher beziehungsweise rückwärtiger Position Okuri-eri-jime ansetzen.",
+      "added": false
+    },
+    {
+      "a": "s1",
+      "b": "w1",
+      "uncertain": false,
+      "note": "Scheitert ein Opferwurf und Tori landet unten, Uke zwischen die Beine nehmen und bei vorhandenen Kragengriffen zur Kreuzwürge ansetzen; Griffstellung prüfen.",
+      "added": false
+    },
+    {
+      "a": "s1",
+      "b": "k0",
+      "uncertain": false,
+      "note": "Nach einem misslungenen Opferwurf die untere Guard/Beinklammer herstellen, Ukes Arm isolieren und einen Kimura-/Ude-garami-Ansatz beginnen.",
+      "added": false
+    },
+    {
+      "a": "s1",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Nach einem misslungenen Angriff die Armkontrolle halten, einen Winkel zum Oberkörper schaffen und Juji-gatame aus Guard oder Übergang ansetzen.",
+      "added": false
+    },
+    {
+      "a": "s3",
+      "b": "h6",
+      "uncertain": false,
+      "note": "Zuerst das eingeklemmte Bein aus Ukes Half Guard lösen; anschließend seitlich passieren und Yoko-shiho-gatame sichern.",
+      "added": false
+    },
+    {
+      "a": "s3",
+      "b": "h7",
+      "uncertain": false,
+      "note": "Beinklammer lösen, Ukes Hüfte kontrollieren und in die Reitposition (Mount) zu Tate-shiho-gatame aufsteigen.",
+      "added": false
+    },
+    {
+      "a": "s3",
+      "b": "h4",
+      "uncertain": false,
+      "note": "Das geklammerte Bein befreien und um Ukes Kopfseite zur Nord-Süd-Kontrolle in Kami-shiho-gatame passieren.",
+      "added": false
+    },
+    {
+      "a": "s3",
+      "b": "w4",
+      "uncertain": false,
+      "note": "Dreht Uke sich aus der Half Guard in Banklage oder gibt den Rücken frei, den Kragen von hinten übernehmen und Okuri-eri-jime ansetzen.",
+      "added": false
+    },
+    {
+      "a": "s4",
+      "b": "h6",
+      "uncertain": false,
+      "note": "Ukes geschlossene Guard zuerst öffnen; dann seitlich passieren und den Oberkörper mit Yoko-shiho-gatame kontrollieren.",
+      "added": false
+    },
+    {
+      "a": "s4",
+      "b": "h4",
+      "uncertain": false,
+      "note": "Die Guard öffnen, an Ukes Beinen vorbei zur Kopfseite passieren und Kami-shiho-gatame festigen.",
+      "added": false
+    },
+    {
+      "a": "s4",
+      "b": "h0",
+      "uncertain": false,
+      "note": "Nach dem Öffnen und Passieren von Ukes Guard in die seitliche Kopf-Arm-Kontrolle für Kesa-gatame wechseln.",
+      "added": false
+    },
+    {
+      "a": "s5",
+      "b": "k0",
+      "uncertain": false,
+      "note": "Direkter Kimura-/Ude-garami-Ansatz aus der unteren Half Guard.",
+      "added": false
+    },
+    {
+      "a": "s5",
+      "b": "h7",
+      "uncertain": false,
+      "note": "Sweep, danach Reitposition; nicht unmittelbar aus der unteren Half Guard.",
+      "added": true
+    },
+    {
+      "a": "s5",
+      "b": "h6",
+      "uncertain": false,
+      "note": "Sweep, danach seitliche Oberlage; nicht unmittelbar aus der unteren Half Guard.",
+      "added": false
+    },
+    {
+      "a": "s5",
+      "b": "w1",
+      "uncertain": false,
+      "note": "Zunächst Rückgewinnung der vollständigen Guard; anschließend Kragenwürge (Griffvariante prüfen).",
+      "added": false
+    },
+    {
+      "a": "s6",
+      "b": "w1",
+      "uncertain": false,
+      "note": "Kreuzkragenwürger; genaue Nami-/Gyaku-/Kata-Ausführung griffabhängig.",
+      "added": false
+    },
+    {
+      "a": "s6",
+      "b": "k0",
+      "uncertain": false,
+      "note": "Kimura aus der unteren geschlossenen Guard.",
+      "added": false
+    },
+    {
+      "a": "s6",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Juji-gatame aus geschlossener Guard.",
+      "added": false
+    },
+    {
+      "a": "s6",
+      "b": "w10",
+      "uncertain": false,
+      "note": "Sankaku-jime aus geschlossener Guard.",
+      "added": false
+    },
+    {
+      "a": "h0",
+      "b": "h1",
+      "uncertain": false,
+      "note": "Tori löst beziehungsweise verändert den Kopf-/Armgriff, hält den Oberkörper aber seitlich fest und übernimmt eine Kuzure-kesa-Variante.",
+      "added": false
+    },
+    {
+      "a": "h0",
+      "b": "h6",
+      "uncertain": false,
+      "note": "Uke dreht oder drückt gegen die Schärpenhalte; Tori richtet sich zur Brustkontrolle aus und sichert Yoko-shiho-gatame.",
+      "added": false
+    },
+    {
+      "a": "h0",
+      "b": "h3",
+      "uncertain": false,
+      "note": "Aus der Kopf-Arm-Kontrolle wird Ukes Arm eng an den Hals geführt; Tori stellt seine Schulterkontrolle auf Kata-gatame um.",
+      "added": false
+    },
+    {
+      "a": "h0",
+      "b": "h2",
+      "uncertain": false,
+      "note": "Tori dreht die Hüfte zur Gegenseite und wechselt bei erhaltener Oberkörperkontrolle in Ushiro-kesa-gatame.",
+      "added": false
+    },
+    {
+      "a": "h0",
+      "b": "h7",
+      "uncertain": false,
+      "note": "Uke drückt sich seitlich aus Kesa heraus; Tori folgt über die Hüfte und übernimmt nach einem Lagewechsel die Reitposition.",
+      "added": false
+    },
+    {
+      "a": "h0",
+      "b": "k3",
+      "uncertain": false,
+      "note": "Uke stemmt einen Arm gegen Toris Brust; Tori isoliert den gestreckten Arm und nutzt das Knie als Hebelstütze.",
+      "added": false
+    },
+    {
+      "a": "h0",
+      "b": "k4",
+      "uncertain": false,
+      "note": "Uke schiebt mit dem Arm zwischen die Körper; Tori behält die Armkontrolle und verlagert die Hebelwirkung in die Achsel.",
+      "added": false
+    },
+    {
+      "a": "h0",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Uke bietet bei der Befreiung einen gestreckten Arm an; Tori löst die Schärpenhalte kontrolliert und übernimmt Juji-gatame.",
+      "added": false
+    },
+    {
+      "a": "h0",
+      "b": "k0",
+      "uncertain": false,
+      "note": "Aus der seitlichen Halteposition wird ein gebeugter, von Uke zur Abwehr eingesetzter Arm isoliert und mit Ude-garami angegriffen.",
+      "added": false
+    },
+    {
+      "a": "h0",
+      "b": "w10",
+      "uncertain": false,
+      "note": "Tori muss die reine Schärpenhalte verlassen, Ukes Kopf und Arm isolieren und in eine für Sankaku geeignete Beinposition wechseln.",
+      "added": false
+    },
+    {
+      "a": "h0",
+      "b": "w8",
+      "uncertain": false,
+      "note": "Bei erhaltener seitlicher Kopf-Arm-Kontrolle den eigenen Ärmel für Sode-guruma-jime nutzen; die konkrete Position entscheidet über die Würgewirkung.",
+      "added": false
+    },
+    {
+      "a": "h0",
+      "b": "w6",
+      "uncertain": true,
+      "note": "Positionsabhängig: Kontrolle von Kopf und Kragen übernehmen und einen einhändigen Würgegriff ansetzen; die genaue Katate-jime-Ausführung ist zu prüfen.",
+      "added": false
+    },
+    {
+      "a": "h1",
+      "b": "h2",
+      "uncertain": false,
+      "note": "Uke dreht sich zur freien Seite; Tori lässt den seitlichen Oberkörperkontakt bestehen und kehrt die Hüftausrichtung zu Ushiro-kesa um.",
+      "added": false
+    },
+    {
+      "a": "h1",
+      "b": "k0",
+      "uncertain": false,
+      "note": "Uke drückt mit dem freien Arm gegen Toris Kopf oder Schulter; der abwehrende Arm wird für Ude-garami fixiert.",
+      "added": false
+    },
+    {
+      "a": "h1",
+      "b": "k2",
+      "uncertain": false,
+      "note": "Uke streckt einen Arm zur Befreiung; Tori kontrolliert die Schulter und setzt einen geraden Ude-gatame-Armhebel an.",
+      "added": false
+    },
+    {
+      "a": "h1",
+      "b": "k4",
+      "uncertain": false,
+      "note": "Uke schiebt den Arm gegen Tori; Tori behält ihn und verlagert den Angriff zum Achselstreckhebel Waki-gatame.",
+      "added": false
+    },
+    {
+      "a": "h1",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Einen frei werdenden Arm isolieren, die Halteposition lösen und unter Beinkontrolle zum Kreuzarmhebel wechseln.",
+      "added": false
+    },
+    {
+      "a": "h2",
+      "b": "h6",
+      "uncertain": false,
+      "note": "Aus der rückwärtigen Schärpenhalte richtet Tori die Brust wieder über Uke und übernimmt seitliche Vierpunkte-Kontrolle.",
+      "added": false
+    },
+    {
+      "a": "h2",
+      "b": "h3",
+      "uncertain": false,
+      "note": "Tori hält Kopf und angehobenen Arm zusammen und ersetzt die rückwärtige Schärpenhalte durch Kata-gatame.",
+      "added": false
+    },
+    {
+      "a": "h3",
+      "b": "h0",
+      "uncertain": false,
+      "note": "Wenn Ukes Schulterarmkontrolle gelockert oder umgestellt wird, die Hüfte zur Schärpenhalte drehen und Kesa-gatame übernehmen.",
+      "added": false
+    },
+    {
+      "a": "h3",
+      "b": "w8",
+      "uncertain": false,
+      "note": "Aus Kopf-Arm-Kontrolle und geeigneter Ärmelposition den Sode-guruma-Würgeansatz herstellen; zuvor ggf. den Griff verändern.",
+      "added": true
+    },
+    {
+      "a": "h3",
+      "b": "w10",
+      "uncertain": true,
+      "note": "Erst Lage und Beinkontrolle ändern: den isolierten Arm in eine Dreiecksposition übernehmen und Sankaku-jime versuchen; kein direkter Wechsel ohne Positionsarbeit.",
+      "added": false
+    },
+    {
+      "a": "h4",
+      "b": "h5",
+      "uncertain": false,
+      "note": "Uke versucht, aus der oberen Vierpunktehalte herauszukommen; Tori verändert Hand-/Schultergriff und bleibt in Kuzure-kami-shiho-gatame.",
+      "added": false
+    },
+    {
+      "a": "h4",
+      "b": "k0",
+      "uncertain": false,
+      "note": "Aus der Nord-Süd-Kontrolle einen gebeugten Arm abtrennen und mit Kimura-/Ude-garami-Griff übernehmen.",
+      "added": false
+    },
+    {
+      "a": "h4",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Ukes Arm aus der Nord-Süd-Halte isolieren; Tori dreht seitlich um den Kopf und führt das Bein zum Kreuzarmhebel.",
+      "added": false
+    },
+    {
+      "a": "h5",
+      "b": "h2",
+      "uncertain": false,
+      "note": "Uke brückt oder dreht auf die Seite; Tori folgt mit der Hüfte und übernimmt Ushiro-kesa-gatame.",
+      "added": false
+    },
+    {
+      "a": "h5",
+      "b": "h6",
+      "uncertain": false,
+      "note": "Aus Kuzure-kami-shiho um Ukes Schulter zur Seite wandern und die Brust-Schulter-Kontrolle für Yoko-shiho-gatame sichern.",
+      "added": false
+    },
+    {
+      "a": "h6",
+      "b": "h7",
+      "uncertain": false,
+      "note": "Bei kontrolliertem Oberkörper über Ukes Hüfte steigen und aus Side Control die Reitposition (Mount) herstellen.",
+      "added": false
+    },
+    {
+      "a": "h6",
+      "b": "h4",
+      "uncertain": false,
+      "note": "Tori dreht aus der Seitenkontrolle um Ukes Kopf zur Nord-Süd-Position und übernimmt Kami-shiho-gatame.",
+      "added": true
+    },
+    {
+      "a": "h6",
+      "b": "h8",
+      "uncertain": true,
+      "note": "Uke zieht sich seitlich zusammen; Tori setzt Knie-/Beinkontrolle ein und wechselt in eine Uki-gatame-Ausführung, sofern deren Kodokan-Kriterien erfüllt sind.",
+      "added": false
+    },
+    {
+      "a": "h6",
+      "b": "h0",
+      "uncertain": false,
+      "note": "Kopf und nahen Arm zusammenfassen, Hüfte zum Boden drehen und die seitliche Brustkontrolle in Kesa-gatame ändern.",
+      "added": false
+    },
+    {
+      "a": "h6",
+      "b": "h2",
+      "uncertain": false,
+      "note": "Tori dreht sich mit dem Rücken zu Ukes Kopf und übernimmt die rückwärtige Schärpenhalte, ohne die Schulterkontrolle aufzugeben.",
+      "added": false
+    },
+    {
+      "a": "h6",
+      "b": "h3",
+      "uncertain": false,
+      "note": "Uke stemmt mit einem Arm gegen Tori; Tori führt den Arm zur Kopfkontrolle und schließt Kata-gatame.",
+      "added": true
+    },
+    {
+      "a": "h6",
+      "b": "k0",
+      "uncertain": false,
+      "note": "Uke stützt beim Befreiungsversuch den Arm gegen Toris Körper; Tori isoliert den gebeugten Ellenbogen für Ude-garami.",
+      "added": false
+    },
+    {
+      "a": "h6",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Uke streckt den Arm, um Abstand zu schaffen; Tori kontrolliert ihn, schwenkt die Beine über und setzt Juji-gatame an.",
+      "added": false
+    },
+    {
+      "a": "h6",
+      "b": "w10",
+      "uncertain": false,
+      "note": "Kopf und nahen Arm isolieren, Bein über Schulter/Kopf führen und aus der seitlichen Lage in Yoko-sankaku-jime übergehen.",
+      "added": false
+    },
+    {
+      "a": "h6",
+      "b": "w1",
+      "uncertain": true,
+      "note": "Bei geeignetem Kragengriff aus Side Control an einen Kreuzkragenwürger anschließen; ob Gyaku-juji-jime zutrifft, hängt von den Griffen ab.",
+      "added": false
+    },
+    {
+      "a": "h6",
+      "b": "w6",
+      "uncertain": true,
+      "note": "Tori nutzt seitliche Schulter-/Kragenkontrolle für eine einhändige Würge; Paper-cutter ist nicht in jeder Ausführung eindeutig Katate-jime.",
+      "added": false
+    },
+    {
+      "a": "h6",
+      "b": "w8",
+      "uncertain": false,
+      "note": "Aus der seitlichen Kopf-Arm-Kontrolle wird ein Ärmelgriff frei; Tori greift mit Sode-guruma-jime an.",
+      "added": false
+    },
+    {
+      "a": "h7",
+      "b": "h0",
+      "uncertain": false,
+      "note": "Uke dreht aus der Reitposition auf die Seite; Tori steigt seitlich ab und fixiert Kopf und Arm mit Kesa-gatame.",
+      "added": false
+    },
+    {
+      "a": "h7",
+      "b": "h6",
+      "uncertain": false,
+      "note": "Uke stellt eine Beinklammer her oder brückt aus Mount; Tori wechselt in seitliche Brustkontrolle zu Yoko-shiho-gatame.",
+      "added": false
+    },
+    {
+      "a": "h7",
+      "b": "h3",
+      "uncertain": false,
+      "note": "In Mount einen Arm über Ukes Kopf isolieren, Kopf und Arm zusammenführen und die Kopf-Arm-Kontrolle zu Kata-gatame verändern.",
+      "added": false
+    },
+    {
+      "a": "h7",
+      "b": "k0",
+      "uncertain": false,
+      "note": "Uke schiebt von unten gegen Toris Brust; Tori fixiert einen gebeugten Arm für Americana-/Ude-garami.",
+      "added": false
+    },
+    {
+      "a": "h7",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Uke streckt einen Arm oder dreht sich zur Seite; Tori isoliert die Schulter, dreht sich seitlich und übernimmt Juji-gatame.",
+      "added": false
+    },
+    {
+      "a": "h7",
+      "b": "w1",
+      "uncertain": true,
+      "note": "Aus der Reitposition beide Kragen greifen und eine Kreuzwürge ansetzen; Gyaku-juji-jime nur bei passender Griffstellung.",
+      "added": false
+    },
+    {
+      "a": "h7",
+      "b": "w10",
+      "uncertain": false,
+      "note": "Uke verteidigt die obere Kontrolle mit einem Arm; Tori isoliert ihn, bringt ein Bein über Kopf/Schulter und formt Mounted Sankaku.",
+      "added": false
+    },
+    {
+      "a": "h7",
+      "b": "w8",
+      "uncertain": false,
+      "note": "Aus Mount mit freier Ärmel-/Unterarmkontrolle den Sode-guruma-Würger ansetzen; Ukes Hals muss zugänglich bleiben.",
+      "added": false
+    },
+    {
+      "a": "h8",
+      "b": "h7",
+      "uncertain": true,
+      "note": "Aus einer Kniekontrolle die Hüfte nachführen und kontrolliert in Mount steigen; Uki-gatame und BJJ-Knee-on-belly sind nicht immer identisch.",
+      "added": false
+    },
+    {
+      "a": "h8",
+      "b": "k1",
+      "uncertain": true,
+      "note": "Uke drückt gegen das belastende Knie und streckt den Arm; Tori kontrolliert ihn und steigt in Juji-gatame um.",
+      "added": false
+    },
+    {
+      "a": "h8",
+      "b": "k0",
+      "uncertain": true,
+      "note": "Uke wehrt die Kniekontrolle mit dem Arm ab; Tori fixiert den gebeugten Arm für eine Kimura-/Americana-Variante.",
+      "added": false
+    },
+    {
+      "a": "h8",
+      "b": "w1",
+      "uncertain": true,
+      "note": "Aus erhöhter Kniekontrolle einen Kreuzkragengriff herstellen; die genaue Juji-jime-Variante hängt von der Handstellung ab.",
+      "added": false
+    },
+    {
+      "a": "k0",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Uke verriegelt die Hände oder streckt den Arm gegen Kimura/Americana; Tori nutzt die Armkontrolle und richtet den Kreuzarmhebel ein.",
+      "added": false
+    },
+    {
+      "a": "k0",
+      "b": "k2",
+      "uncertain": false,
+      "note": "Uke streckt den Arm, um dem Beugehebel auszuweichen; Tori behält die Schulterkontrolle und geht zum geraden Ude-gatame über.",
+      "added": false
+    },
+    {
+      "a": "k0",
+      "b": "k4",
+      "uncertain": false,
+      "note": "Einen blockierten Schulterhebel durch Verlagerung der Armkontrolle zur Achsel als Waki-gatame fortsetzen; Variante und Lage prüfen.",
+      "added": false
+    },
+    {
+      "a": "k0",
+      "b": "h7",
+      "uncertain": false,
+      "note": "Der Schulterhebel wird zugunsten von Kontrolle gelöst; Tori schiebt die Hüfte über Uke und übernimmt Mount.",
+      "added": false
+    },
+    {
+      "a": "k0",
+      "b": "w10",
+      "uncertain": false,
+      "note": "Aus der Kimura-Kontrolle Winkel und Beinposition ändern; der angehobene Arm eröffnet einen Triangle-/Sankaku-Ansatz.",
+      "added": true
+    },
+    {
+      "a": "k0",
+      "b": "w8",
+      "uncertain": true,
+      "note": "Kimura-Kontrolle zur Kopf-Arm-Kontrolle lösen und den Ärmel für Ezekiel-/Sode-guruma-jime nutzen; positionsabhängig.",
+      "added": false
+    },
+    {
+      "a": "k0",
+      "b": "w4",
+      "uncertain": true,
+      "note": "Kimura-Kontrolle → Rückenübernahme → Bow-and-arrow-Würger; nicht ohne Lagewechsel.",
+      "added": true
+    },
+    {
+      "a": "k0",
+      "b": "h3",
+      "uncertain": true,
+      "note": "Der für Americana angehobene Ellenbogen kann zur Kopf-Arm-Kontrolle genutzt werden; anschließend Kata-gatame sichern.",
+      "added": false
+    },
+    {
+      "a": "k1",
+      "b": "k0",
+      "uncertain": false,
+      "note": "Uke verschränkt die Hände und blockiert den Armstreckhebel; Tori isoliert den anderen oder gebeugten Arm für Ude-garami.",
+      "added": false
+    },
+    {
+      "a": "k1",
+      "b": "k3",
+      "uncertain": true,
+      "note": "Aus einem abgewehrten Kreuzarmhebel wird der Arm anders zwischen Knie und Körper kontrolliert; Zuordnung zu Hiza-gatame ist variantenabhängig.",
+      "added": false
+    },
+    {
+      "a": "k1",
+      "b": "h6",
+      "uncertain": false,
+      "note": "Tori gibt den Hebel auf, bleibt oben und übernimmt nach Zurückführen der Beine Yoko-shiho-gatame.",
+      "added": false
+    },
+    {
+      "a": "k1",
+      "b": "h7",
+      "uncertain": false,
+      "note": "Uke zieht den Arm zurück; Tori folgt mit der Hüfte und stellt Mount als stabile Oberlage wieder her.",
+      "added": false
+    },
+    {
+      "a": "k1",
+      "b": "h8",
+      "uncertain": true,
+      "note": "Bei Aufgabe des Juji-Ansatzes über die Knieposition zur seitlichen Kontrolle zurückkehren; Uki-gatame nur bei passender Ausführung.",
+      "added": false
+    },
+    {
+      "a": "k1",
+      "b": "w10",
+      "uncertain": false,
+      "note": "Uke zieht den Arm aus Juji-gatame heraus; Tori behält den Winkel und schließt die Beine zur Dreieckswürge.",
+      "added": true
+    },
+    {
+      "a": "k1",
+      "b": "w8",
+      "uncertain": false,
+      "note": "Wenn Uke den Arm zusammenzieht oder schützt, Bein- und Armkontrolle lösen und eine geeignete Ärmelposition für Sode-guruma herstellen.",
+      "added": false
+    },
+    {
+      "a": "k1",
+      "b": "w6",
+      "uncertain": true,
+      "note": "Nach Abwehr des Armhebels zur oberen Kragen-/Schulterkontrolle zurückkehren und Katate-jime versuchen; Paper-cutter-Zuordnung ungeklärt.",
+      "added": false
+    },
+    {
+      "a": "k2",
+      "b": "k0",
+      "uncertain": false,
+      "note": "Uke beugt den gegen Ude-gatame gestreckten Arm; Tori übernimmt ihn zum Schulterbeugehebel Ude-garami.",
+      "added": false
+    },
+    {
+      "a": "k2",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Tori isoliert den gestreckten Arm weiter und verändert Körperwinkel und Beinstellung zum Kreuzarmhebel.",
+      "added": false
+    },
+    {
+      "a": "k2",
+      "b": "h1",
+      "uncertain": false,
+      "note": "Nach Aufgabe des Streckhebels Kopf und Arm seitlich zusammennehmen und Kuzure-kesa-gatame als Kontrolle sichern.",
+      "added": false
+    },
+    {
+      "a": "k3",
+      "b": "k6",
+      "uncertain": false,
+      "note": "Tori verlagert die Hebelwirkung vom Knie auf das Bein und stellt einen Ashi-gatame-Armhebel her; konkrete Ausführung prüfen.",
+      "added": false
+    },
+    {
+      "a": "k3",
+      "b": "k5",
+      "uncertain": false,
+      "note": "Der Arm wird neu fixiert; statt Kniekontrolle nutzt Tori die Bauch-/Körpervorderseite als Hebelstütze.",
+      "added": false
+    },
+    {
+      "a": "k4",
+      "b": "k0",
+      "uncertain": true,
+      "note": "Wird der gestreckte Arm in Waki-gatame gebeugt, kann ein erneuter Ude-garami-Ansatz möglich werden; deutlicher Kontrollwechsel nötig.",
+      "added": false
+    },
+    {
+      "a": "k5",
+      "b": "k4",
+      "uncertain": false,
+      "note": "Aus Hara-gatame den fixierten Arm zur Achselkontrolle umlegen und Waki-gatame anschließen.",
+      "added": false
+    },
+    {
+      "a": "k7",
+      "b": "w10",
+      "uncertain": false,
+      "note": "Die bereits bestehende Sankaku-Beinkontrolle wird nicht mehr zum Armhebel, sondern zum Würgen verwendet.",
+      "added": false
+    },
+    {
+      "a": "k7",
+      "b": "h6",
+      "uncertain": true,
+      "note": "Die Dreieckskontrolle lösen und, falls Tori in Oberlage kommt, die Seitenkontrolle übernehmen; kein direkt gesicherter Wechsel.",
+      "added": false
+    },
+    {
+      "a": "w0",
+      "b": "h4",
+      "uncertain": false,
+      "note": "Den Kreuzkragenwürgegriff lösen, oberhalb von Ukes Kopf bleiben und mit Kami-shiho-gatame sichern; genaue Ausgangslage prüfen.",
+      "added": false
+    },
+    {
+      "a": "w1",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Uke richtet sich gegen den Kreuzkragenwürger auf oder bringt den Arm zur Abwehr; Tori isoliert diesen und schwenkt zum Juji-gatame.",
+      "added": true
+    },
+    {
+      "a": "w1",
+      "b": "w10",
+      "uncertain": false,
+      "note": "Uke wehrt den Kragenwürger mit einem Arm ab; Tori nutzt die Armposition und schließt die Beine zu Sankaku-jime.",
+      "added": true
+    },
+    {
+      "a": "w1",
+      "b": "k0",
+      "uncertain": true,
+      "note": "Ukes Armverteidigung gegen den Kragenwürger kann zur Kimura-Kontrolle genutzt werden; erforderlicher Positionswechsel ist variantenabhängig.",
+      "added": false
+    },
+    {
+      "a": "w2",
+      "b": "w1",
+      "uncertain": false,
+      "note": "Bei Verteidigung gegen die erste Kreuzwürge wird die Kragengriffstellung zu Gyaku-juji-jime umgefasst.",
+      "added": false
+    },
+    {
+      "a": "w3",
+      "b": "w8",
+      "uncertain": false,
+      "note": "Uke schützt den Hals vor Hadaka-jime; Tori verändert Arm-/Ärmelgriff und versucht einen Sode-guruma-Ansatz.",
+      "added": false
+    },
+    {
+      "a": "w3",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Uke greift den würgenden Arm, um den Hals zu schützen; Tori isoliert den Verteidigungsarm für Juji-gatame, ggf. nach Lagewechsel.",
+      "added": true
+    },
+    {
+      "a": "w4",
+      "b": "w3",
+      "uncertain": false,
+      "note": "Rückenkontrolle bleibt; Wechsel vom Kragen- zum freien Würgegriff.",
+      "added": true
+    },
+    {
+      "a": "w4",
+      "b": "w5",
+      "uncertain": false,
+      "note": "Uke verteidigt den rückwärtigen Kragenzug; Tori bindet einen Arm zusätzlich ein und wechselt zu Kataha-jime.",
+      "added": false
+    },
+    {
+      "a": "w4",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Uke blockiert den Kragenwürger und stellt den Arm zur Abwehr; Tori kontrolliert ihn und wechselt in eine Juji-gatame-Position.",
+      "added": false
+    },
+    {
+      "a": "w4",
+      "b": "h4",
+      "uncertain": false,
+      "note": "Der Kragenwürger wird aufgegeben; nach Umdrehen von Uke und Wechsel an dessen Kopf sichert Tori Kami-shiho-gatame.",
+      "added": false
+    },
+    {
+      "a": "w4",
+      "b": "w10",
+      "uncertain": true,
+      "note": "Nach aufgegebener Rückenkontrolle und deutlichem Positionswechsel kann eine Dreiecksposition entstehen; direkte Würgefolge nicht belegt.",
+      "added": false
+    },
+    {
+      "a": "w6",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Uke drückt gegen den einhändigen Würgegriff und bietet den gestreckten Arm; Tori isoliert ihn für Juji-gatame.",
+      "added": false
+    },
+    {
+      "a": "w6",
+      "b": "k4",
+      "uncertain": false,
+      "note": "Uke führt den Abwehrarm an Toris Oberkörper; der Arm kann nach Positionswechsel in Waki-gatame geführt werden.",
+      "added": false
+    },
+    {
+      "a": "w6",
+      "b": "w10",
+      "uncertain": true,
+      "note": "Aus einem abgewehrten Katate-/Paper-cutter-Würgeansatz den angehobenen Arm nutzen, um eine Dreieckskontrolle herzustellen; genaue Zuordnung prüfen.",
+      "added": false
+    },
+    {
+      "a": "w7",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Wenn die beidhändige Würge nicht greift, den abwehrenden Arm isolieren und nach Lagewechsel zum Kreuzarmhebel wechseln.",
+      "added": false
+    },
+    {
+      "a": "w8",
+      "b": "w1",
+      "uncertain": true,
+      "note": "Uke hebt Kinn und Hände gegen Sode-guruma; Tori übernimmt die Kragen für eine Kreuzwürge, deren Griffform zu prüfen ist.",
+      "added": false
+    },
+    {
+      "a": "w8",
+      "b": "k0",
+      "uncertain": false,
+      "note": "Uke schiebt den eigenen Arm gegen die Ärmelwürge; Tori isoliert den gebeugten Arm und greift Ude-garami an.",
+      "added": false
+    },
+    {
+      "a": "w8",
+      "b": "h3",
+      "uncertain": false,
+      "note": "Ukes Abwehrarm wird an den Kopf geführt; statt der Würge übernimmt Tori eine Kopf-Arm-Kontrolle als Kata-gatame.",
+      "added": false
+    },
+    {
+      "a": "w9",
+      "b": "w4",
+      "uncertain": false,
+      "note": "Den Tsukkomi-Kragendruck in einen Zug-/Rückenkontrollgriff ändern und eine Okuri-eri-jime-Variante ansetzen.",
+      "added": false
+    },
+    {
+      "a": "w10",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Uke richtet sich auf oder löst die Dreieckswürge; Tori isoliert den eingeklemmten Arm für Juji-gatame.",
+      "added": true
+    },
+    {
+      "a": "w10",
+      "b": "k0",
+      "uncertain": false,
+      "note": "Uke blockiert Sankaku mit einem gebeugten Arm; Tori kontrolliert diesen und setzt Kimura-/Americana-Ude-garami an.",
+      "added": true
+    },
+    {
+      "a": "w10",
+      "b": "k7",
+      "uncertain": false,
+      "note": "Dreieckskontrolle wird statt Würge zum Armhebel genutzt.",
+      "added": true
+    },
+    {
+      "a": "w10",
+      "b": "k6",
+      "uncertain": true,
+      "note": "Den im Dreieck gefangenen Arm anders mit dem Bein belasten und als Ashi-gatame hebeln; die genaue Kodokan-Zuordnung ist unsicher.",
+      "added": false
+    },
+    {
+      "a": "w10",
+      "b": "w4",
+      "uncertain": true,
+      "note": "Sankaku aufgeben und über Positionswechsel Ukes Rücken/Kragen kontrollieren; kein direkter Wechsel ohne Rückenübernahme.",
+      "added": false
+    },
+    {
+      "a": "w10",
+      "b": "h6",
+      "uncertain": true,
+      "note": "Dreieckskontrolle öffnen und nach erfolgreichem Sweep oder Lagewechsel Yoko-shiho-gatame festigen.",
+      "added": false
+    },
+    {
+      "a": "s5",
+      "b": "w4",
+      "uncertain": true,
+      "note": "Zuerst Rückenübernahme (Underhook/Back Take), danach Kragenwürge.",
+      "added": true
+    },
+    {
+      "a": "s5",
+      "b": "w10",
+      "uncertain": true,
+      "note": "Knee-Shield/Guard-Recovery ermöglicht Triangle-Einstieg; positionsabhängig.",
+      "added": true
+    },
+    {
+      "a": "s5",
+      "b": "k1",
+      "uncertain": true,
+      "note": "Kimura-Trap/Positionswechsel zum Armhebel; positionsabhängig.",
+      "added": true
+    },
+    {
+      "a": "s5",
+      "b": "h3",
+      "uncertain": true,
+      "note": "Sweep und Kopf-Arm-Kontrolle in Oberlage nötig.",
+      "added": true
+    },
+    {
+      "a": "s5",
+      "b": "h4",
+      "uncertain": true,
+      "note": "Sweep, Pass zur Nord-Süd-Kontrolle nötig.",
+      "added": true
+    },
+    {
+      "a": "s5",
+      "b": "w8",
+      "uncertain": true,
+      "note": "Half Guard / Knee-Shield Ärmelwürger, ausführungsspezifisch.",
+      "added": true
+    },
+    {
+      "a": "s6",
+      "b": "h6",
+      "uncertain": true,
+      "note": "Sweep zur Oberlage, danach Side Control; kein unmittelbarer Haltegriff aus Bottom Guard.",
+      "added": true
+    },
+    {
+      "a": "s6",
+      "b": "h7",
+      "uncertain": true,
+      "note": "Sweep zur Oberlage, danach Mount.",
+      "added": true
+    },
+    {
+      "a": "s6",
+      "b": "w4",
+      "uncertain": true,
+      "note": "Zuerst Back Take, danach Bow-and-arrow-/Okuri-eri-jime.",
+      "added": true
+    },
+    {
+      "a": "s6",
+      "b": "w8",
+      "uncertain": true,
+      "note": "Ezekiel-Würger aus der unteren Guard; ausführungsspezifisch.",
+      "added": true
+    },
+    {
+      "a": "s6",
+      "b": "w0",
+      "uncertain": true,
+      "note": "Kreuzkragenwürger aus Full Guard; Griffstellung prüfen.",
+      "added": true
+    },
+    {
+      "a": "k0",
+      "b": "h6",
+      "uncertain": true,
+      "note": "Kimura-Kontrolle als Sweep-Einstieg, anschließend seitlicher Haltegriff.",
+      "added": true
+    },
+    {
+      "a": "k0",
+      "b": "w3",
+      "uncertain": true,
+      "note": "Kimura-Kontrolle → Rückenübernahme → Hadaka-jime; nicht ohne Lagewechsel.",
+      "added": true
+    },
+    {
+      "a": "k0",
+      "b": "h4",
+      "uncertain": true,
+      "note": "Kimura-Sweep/Pass zur Nord-Süd-Position nötig.",
+      "added": true
+    },
+    {
+      "a": "h4",
+      "b": "h6",
+      "uncertain": false,
+      "note": "Aus Kami-shiho-gatame um Ukes Kopf zur Seite wandern und die Kontrolle auf Yoko-shiho-gatame ändern.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "h0",
+      "uncertain": false,
+      "note": "Einstieg: Halbnelson-Umdreher. Kontrolle an Schulter und Nacken zum Umdrehen und zur Kesa-gatame-Position.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "h3",
+      "uncertain": false,
+      "note": "Einstieg: Kata-gatame Roll. Mit Kopf-Arm-Kontrolle rollen und anschließend Kata-gatame halten.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "h4",
+      "uncertain": false,
+      "note": "Einstieg: Sattelsturz; Kami-shiho-gatame Roll. Aus der Bank über Reverskontrolle rollen und zur Kopf-Vierpunktehalte wechseln.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "h6",
+      "uncertain": false,
+      "note": "Einstieg: Stützeklauen / Dampfwalzen-Umdreher. Bank von der Seite durch Zug an beiden Armen und Körpereinsatz umdrehen; Abschluss Yoko-shiho-gatame.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "h7",
+      "uncertain": false,
+      "note": "Einstieg: Sattelsturz (Gegenrichtung); Tate-shiho-gatame Roll / Waikiki Turnover. Verteidigt Uke die erste Richtung, wird über die andere Seite in Tate-shiho-gatame kontrolliert.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "h9",
+      "uncertain": false,
+      "note": "Einstieg: Abklemmen des Arms → Ura-gatame. Armfessel und Lagewechsel zur Ura-gatame-Kontrolle.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Einstieg: Iatskevich Juji-gatame Roll; Adams Juji-gatame Roll (2 Varianten); Traineau Juji-gatame Roll; Ohten-gatame / Rollbankhebel. Rollender Armhebel aus der Turtle-Kontrolle.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "k4",
+      "uncertain": false,
+      "note": "Einstieg: Abklemmen des Arms → Waki-gatame. Armfessel gegen Bank wird zu einem Achselstreckhebel weitergeführt.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "w1",
+      "uncertain": true,
+      "note": "Einstieg: Marhenke-Dreher / Marhenke-Würger (?). Historischer Kreuzwürge-Angriff gegen die Bank von vorne; genaue Juji-jime-Griffform variiert.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "w10",
+      "uncertain": true,
+      "note": "Einstieg: Briggs Sankaku (?); Straddling Sankaku / Leg Sankaku (?). Sankaku-Eingang aus der Banklage; Abschluss als Sankaku-jime bei korrekter Würgekonstruktion.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "w4",
+      "uncertain": false,
+      "note": "Einstieg: Rollbankwürger (Rollwürger); Koshi-jime / Laufwürger. Rolle von der Bankposition mit Kragenfixierung; Zuordnung als Okuri-eri-jime-Gruppe.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "w5",
+      "uncertain": false,
+      "note": "Einstieg: Rolling Kataha-jime. Einflügelwürge mit rollendem Eingang gegen Turtle.",
+      "added": true
+    },
+    {
+      "a": "s7",
+      "b": "w8",
+      "uncertain": false,
+      "note": "Einstieg: Sode-guruma-jime gegen Turtle. Ärmelradwürge aus oberer Bankkontrolle.",
+      "added": true
+    },
+    {
+      "a": "s8",
+      "b": "h0",
+      "uncertain": false,
+      "note": "Einstieg: Halbnelson-Umdreher. Uke aus flacher Bauchlage in Rückenlage drehen und Kesa-gatame ansetzen.",
+      "added": true
+    },
+    {
+      "a": "s8",
+      "b": "h2",
+      "uncertain": true,
+      "note": "Einstieg: Bauchlage-Umdreher zur Gyaku-kesa-gatame (?). Nach dem Wenden gegen die Bauchlage erfolgt eine umgekehrte Schärpenhalte; Systematik abhängig von Variante.",
+      "added": true
+    },
+    {
+      "a": "s8",
+      "b": "h4",
+      "uncertain": false,
+      "note": "Einstieg: Bauchlage-Umdreher zur Kami-shiho-gatame. Uke aus der Bauchlage wenden und in oberer Vierpunktehalte fixieren.",
+      "added": true
+    },
+    {
+      "a": "s8",
+      "b": "h6",
+      "uncertain": false,
+      "note": "Einstieg: Halbnelson-Umdreher zur Brustkontrolle; Seitliches Heranziehen über Knie und Oberarm; Kashiwazaki-Umdreher (?). Uke wird in Rückenlage gedreht; Mune-gatame wird hier als Yoko-shiho-Familie geführt.",
+      "added": true
+    },
+    {
+      "a": "s8",
+      "b": "h7",
+      "uncertain": false,
+      "note": "Einstieg: Schlüsseldreher / Sankaku-Schlüssel. Körper-/Beinkontrolle führt zur Drehung aus Bauchlage in Tate-shiho-gatame (Mount).",
+      "added": true
+    },
+    {
+      "a": "s8",
+      "b": "k1",
+      "uncertain": false,
+      "note": "Einstieg: Umdreher zum Nami-juji-gatame. Bauchlage wird durch Umdrehen mit anschließender Armkontrolle zum Kreuzarmhebel angegriffen.",
+      "added": true
+    },
+    {
+      "a": "s8",
+      "b": "k4",
+      "uncertain": true,
+      "note": "Einstieg: Armfessel nach Bauchlage → Waki-gatame (?). Uke sperrt mit den Armen; isolierter Arm wird zum Waki-gatame angegriffen.",
+      "added": true
+    },
+    {
+      "a": "s8",
+      "b": "k7",
+      "uncertain": true,
+      "note": "Einstieg: Sankaku-Umdreher zum Armhebel (?). Aus Bauchlage zur Sankaku-Kontrolle drehen; Armhebel aus der Dreiecksposition.",
+      "added": true
+    },
+    {
+      "a": "s8",
+      "b": "w10",
+      "uncertain": true,
+      "note": "Einstieg: Sankaku-Einstieg nach Umdrehen (?). Nur wenn nach dem Wenden tatsächlich eine würgende Dreieckskontrolle besteht.",
+      "added": true
+    },
+    {
+      "a": "s8",
+      "b": "w4",
+      "uncertain": true,
+      "note": "Einstieg: Rollbankwürger / Wanner-Würger (?). Kragenangriff kann auch bei tiefer Bauchlage begonnen werden; exakte Einordnung des Wanner-Würgers ausführungsspezifisch.",
+      "added": true
+    }
+  ],
+  "chains": [
+    {
+      "id": "F1",
+      "start": "s6",
+      "tech": [
+        "w1",
+        "k1",
+        "w10"
+      ],
+      "cue": "Kragenabwehr → Armhebelabwehr",
+      "sources": [
+        "Randori – Cross choke → Armbar → Triangle"
+      ]
+    },
+    {
+      "id": "F2",
+      "start": "s6",
+      "tech": [
+        "k0",
+        "k1",
+        "w10",
+        "k7"
+      ],
+      "cue": "Kimuraabwehr → Juji-Abwehr → Hebel aus Sankaku",
+      "sources": [
+        "BJJ TV – Closed Guard Submissions",
+        "BJJ Graph – Kimura"
+      ]
+    },
+    {
+      "id": "F3",
+      "start": "s6",
+      "tech": [
+        "k1",
+        "w10",
+        "k0"
+      ],
+      "cue": "Arm wird zurückgezogen → Dreieck wird mit Arm verteidigt",
+      "sources": [
+        "BJJ TV – Closed Guard Submissions"
+      ]
+    },
+    {
+      "id": "F4",
+      "start": "s6",
+      "tech": [
+        "w10",
+        "k1",
+        "k0"
+      ],
+      "cue": "Uke richtet sich auf → Armhebel → Kimura-Verteidigung",
+      "sources": [
+        "BJJ TV – Closed Guard Submissions"
+      ]
+    },
+    {
+      "id": "F5",
+      "start": "s6",
+      "tech": [
+        "k0",
+        "h6",
+        "h4",
+        "k1"
+      ],
+      "cue": "Kimura-Sweep → Side Control → Nord-Süd → Armhebel",
+      "sources": [
+        "Grapplearts – Kimura Position Cheatsheet"
+      ]
+    },
+    {
+      "id": "F6",
+      "start": "s6",
+      "tech": [
+        "k0",
+        "w4",
+        "w3",
+        "k1"
+      ],
+      "cue": "Kimura-Kontrolle → Back Take → Kragenwürge → freier Würger → Hebel",
+      "sources": [
+        "BJJ Graph – Kimura",
+        "Grapplearts – Kimura Position Cheatsheet"
+      ]
+    },
+    {
+      "id": "F7",
+      "start": "s6",
+      "tech": [
+        "w1",
+        "w10",
+        "k1"
+      ],
+      "cue": "Kragenwürger verteidigt → Dreieck → Armhebel",
+      "sources": [
+        "BJJ Graph – Switch to Triangle"
+      ]
+    },
+    {
+      "id": "F8",
+      "start": "s6",
+      "tech": [
+        "h7",
+        "k0",
+        "k1",
+        "w10"
+      ],
+      "cue": "Sweep zur Mount → Americana → Armbar → Triangle",
+      "sources": [
+        "BJJ Commons – Position Map",
+        "BJJ TV – Closed Guard Submissions"
+      ]
+    },
+    {
+      "id": "H1",
+      "start": "s5",
+      "tech": [
+        "k0",
+        "k1",
+        "w10"
+      ],
+      "cue": "Kimura aus Half Guard → Armhebel → Dreieck (Positionswechsel)",
+      "sources": [
+        "Gracie Barra – Kimura from Bottom Half Guard",
+        "BJJ Graph – Kimura"
+      ]
+    },
+    {
+      "id": "H2",
+      "start": "s5",
+      "tech": [
+        "k0",
+        "h6",
+        "h4",
+        "k1"
+      ],
+      "cue": "Kimura-Sweep → Side Control → Nord-Süd → Armhebel",
+      "sources": [
+        "Grapplearts – Kimura Position Cheatsheet"
+      ]
+    },
+    {
+      "id": "H3",
+      "start": "s5",
+      "tech": [
+        "k0",
+        "w4",
+        "w3",
+        "k1"
+      ],
+      "cue": "Kimura-Kontrolle → Back Take → Kragenwürge → freier Würger → Armhebel",
+      "sources": [
+        "BJJ Graph – Kimura",
+        "CNX BJJ – Half Guard"
+      ]
+    },
+    {
+      "id": "H4",
+      "start": "s5",
+      "tech": [
+        "w4",
+        "w3",
+        "k1"
+      ],
+      "cue": "Underhook / Back Take → Kragenwürge → freier Würger → Armhebel",
+      "sources": [
+        "Gracie University – Half Guard Back Take",
+        "CNX BJJ – Half Guard"
+      ]
+    },
+    {
+      "id": "H5",
+      "start": "s5",
+      "tech": [
+        "h7",
+        "k0",
+        "k1"
+      ],
+      "cue": "Half-Guard-Sweep zur Mount → Americana → Armbar",
+      "sources": [
+        "CNX BJJ – Half Guard",
+        "BJJ TV – Closed Guard Submissions"
+      ]
+    },
+    {
+      "id": "H6",
+      "start": "s5",
+      "tech": [
+        "h6",
+        "h3",
+        "w8"
+      ],
+      "cue": "Half-Guard-Sweep zur Seitenkontrolle → Kopf-Arm-Kontrolle → Ezekiel",
+      "sources": [
+        "CNX BJJ – Half Guard"
+      ]
+    },
+    {
+      "id": "H7",
+      "start": "s5",
+      "tech": [
+        "w1",
+        "k1",
+        "w10"
+      ],
+      "cue": "Guard Recovery → Kragenwürger → Armbar → Triangle",
+      "sources": [
+        "Grapplearts – Roadmap for BJJ",
+        "Randori – Cross choke → Armbar → Triangle"
+      ]
+    },
+    {
+      "id": "H8",
+      "start": "s5",
+      "tech": [
+        "w10",
+        "k1",
+        "k0"
+      ],
+      "cue": "Guard Recovery/Knee Shield → Triangle → Armbar → Kimura",
+      "sources": [
+        "Grapplearts – Roadmap for BJJ",
+        "BJJ TV – Closed Guard Submissions"
+      ]
+    },
+    {
+      "id": "B1",
+      "start": "s7",
+      "tech": [
+        "k1",
+        "w10",
+        "k7"
+      ],
+      "cue": "Adams-/Iatskevich-Juji-Rolle → Dreieck → Hebel aus Sankaku",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "KL Judo – Riding Turtle"
+      ]
+    },
+    {
+      "id": "B2",
+      "start": "s7",
+      "tech": [
+        "w4",
+        "w3",
+        "k1"
+      ],
+      "cue": "Rollbankwürger → freier Würgegriff → Juji-gatame",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "KL Judo – Riding Turtle"
+      ]
+    },
+    {
+      "id": "B3",
+      "start": "s7",
+      "tech": [
+        "h6",
+        "k0",
+        "k1"
+      ],
+      "cue": "Stützeklauen → Yoko-shiho → Ude-garami → Juji-gatame",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "KL Judo – Riding Turtle"
+      ]
+    },
+    {
+      "id": "B4",
+      "start": "s7",
+      "tech": [
+        "h4",
+        "h5",
+        "h6",
+        "k0"
+      ],
+      "cue": "Sattelsturz → Kami-shiho → Kuzure-kami → Yoko-shiho → Ude-garami",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "KL Judo – Riding Turtle"
+      ]
+    },
+    {
+      "id": "B5",
+      "start": "s7",
+      "tech": [
+        "h7",
+        "k0",
+        "k1"
+      ],
+      "cue": "Waikiki-Turnover / Sattelsturz → Mount → Americana → Juji-gatame",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "KL Judo – Riding Turtle"
+      ]
+    },
+    {
+      "id": "B6",
+      "start": "s7",
+      "tech": [
+        "w8",
+        "k0",
+        "k1"
+      ],
+      "cue": "Sode-guruma-jime gegen Bank → Ude-garami → Juji-gatame",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "KL Judo – Riding Turtle"
+      ]
+    },
+    {
+      "id": "B7",
+      "start": "s7",
+      "tech": [
+        "h3",
+        "w8",
+        "k0"
+      ],
+      "cue": "Kata-gatame-Roll → Sode-guruma-jime → Ude-garami",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "KL Judo – Riding Turtle"
+      ]
+    },
+    {
+      "id": "P1",
+      "start": "s8",
+      "tech": [
+        "h0",
+        "k1",
+        "w10"
+      ],
+      "cue": "Halbnelson → Kesa-gatame → Juji-gatame → Sankaku-jime",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "VIBSS – Anwendungshilfe Umdreher"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": "s8",
+      "tech": [
+        "h7",
+        "w10",
+        "k1"
+      ],
+      "cue": "Schlüsseldreher → Mount → Sankaku-jime → Juji-gatame",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "VIBSS – Anwendungshilfe Umdreher"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": "s8",
+      "tech": [
+        "h6",
+        "k0",
+        "k1"
+      ],
+      "cue": "Seitlicher Bauchlage-Umdreher → Yoko-shiho → Ude-garami → Juji-gatame",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "VIBSS – Anwendungshilfe Umdreher"
+      ]
+    },
+    {
+      "id": "P4",
+      "start": "s8",
+      "tech": [
+        "k1",
+        "w10",
+        "k7"
+      ],
+      "cue": "Bauchlage-Umdreher zu Juji → Sankaku-jime → Sankaku-Armhebel",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "VIBSS – Anwendungshilfe Umdreher"
+      ]
+    },
+    {
+      "id": "P5",
+      "start": "s8",
+      "tech": [
+        "h4",
+        "k1",
+        "w10"
+      ],
+      "cue": "Bauchlage zur Kami-shiho-gatame → Juji-gatame → Sankaku-jime",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "VIBSS – Anwendungshilfe Umdreher"
+      ]
+    },
+    {
+      "id": "P6",
+      "start": "s8",
+      "tech": [
+        "w4",
+        "w3",
+        "k1"
+      ],
+      "cue": "Kragenwürger aus Bauchlage → Hadaka-jime → Juji-gatame",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "VIBSS – Anwendungshilfe Umdreher"
+      ]
+    },
+    {
+      "id": "P7",
+      "start": "s8",
+      "tech": [
+        "k7",
+        "w10",
+        "k1"
+      ],
+      "cue": "Sankaku-Armhebel → Sankaku-jime → Juji-gatame (Lage kontrollieren)",
+      "sources": [
+        "DJB – Rahmentrainingskonzeption",
+        "VIBSS – Anwendungshilfe Umdreher"
+      ]
+    }
+  ],
+  "sources": {
+    "BJJ TV – Closed Guard Submissions": "https://bjj.tv/closed-guard-submissions-armbar-triangle-kimura/",
+    "Randori – Cross choke → Armbar → Triangle": "https://randoriapp.com/learn/bjj/systems/closed-guard-attacks-chain-gi",
+    "Grapplearts – Kimura Position Cheatsheet": "https://www.grapplearts.com/wp-content/uploads/2025/10/The-Kimura-Position-Cheatsheet.pdf",
+    "CNX BJJ – Half Guard": "https://cnxbjj.com/techniques/half-guard/",
+    "Gracie Barra – Kimura from Bottom Half Guard": "https://online.graciebarra.com/programs/cafe-half-guard-bottom-technique-kimura-from-bottom-half-guard",
+    "BJJ Graph – Kimura": "https://bjjgraph.org/Submissions/Kimura/",
+    "BJJ Graph – Switch to Triangle": "https://bjjgraph.org/Transitions/Switch-to-Triangle/",
+    "Grapplearts – Roadmap for BJJ": "https://www.grapplearts.com/wp-content/uploads/2014/02/Roadmap-for-BJJ-1.4.11.pdf",
+    "Gracie University – Half Guard Back Take": "https://www.gracieuniversity.com/pages/public/lesson?enc=CyeuwQ1iNKkFw9Dx7H2y2X2AObDhzQb22yTqHKT7jKE%3D",
+    "BJJ Commons – Position Map": "https://github.com/ctrl-malacan/bjj-commons/blob/main/position-map.md",
+    "Kodokan – Offizielle Techniken": "https://kdkjudo.org/en/techniques/names-of-judo-techniques/",
+    "BJJ Fanatics – Closed Guard Beyond Basics": "https://bjjfanatics.com/collections/instructional-videos/products/closed-guard-beyond-the-basics-by-thomas-lisboa?variant=29508318003298",
+    "DJB – Rahmentrainingskonzeption": "https://www.judobund.de/fileadmin/user_upload/judobund.de/Downloads/Downloadcenter/Wettkampfsport/Wettkampf_Trainingskonzeptionen_Rahmentrainingskonzeption.pdf",
+    "VIBSS – Anwendungshilfe Umdreher": "https://www.vibss.de/fileadmin/Medienablage/Sportpraxis/PH_Judo/PH_Judo_-_Anwendungshilfe_Umdreher.pdf",
+    "KL Judo – Riding Turtle": "https://kljudo.com/positional-newaza-riding-turtle/",
+    "KL Judo – Osaekomi Turnovers": "https://kljudo.com/osaekomi/",
+    "Bayerischer Judo-Verband – Rollbankwürger": "https://www.bayernjudo.de/ressorts/lehrwesen/trainerakademie/ne-waza?catid=199&id=1267%3Arollbankwuerger&view=article",
+    "Judo-Club Aurich – Bodentechniken": "https://judo-aurich.de/technik-sammlung/techniken/bodentechniken/",
+    "Erik Zimmermann – 1. Dan": "https://expydoc.com/doc/8764189/1.-dan---judo-seite-von-erik",
+    "JudoHD – Anwendungsaufgaben Boden": "https://judohd.de/web-app/gelb/anwendungsaufgaben-boden/",
+    "DJJV – Tate-shiho und Mount": "https://technikum.djjv.de/index.php?title=Haltetechnik_in_Reitposition"
+  },
+  "methods": [
+    {
+      "start": "s7",
+      "name": "Stützeklauen / Dampfwalzen-Umdreher",
+      "target": "h6",
+      "description": "Bank von der Seite durch Zug an beiden Armen und Körpereinsatz umdrehen; Abschluss Yoko-shiho-gatame.",
+      "source": "VIBSS – Anwendungshilfe Umdreher",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Sattelsturz",
+      "target": "h4",
+      "description": "Aus der Bank über Reverskontrolle rollen und zur Kopf-Vierpunktehalte wechseln.",
+      "source": "VIBSS – Anwendungshilfe Umdreher",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Sattelsturz (Gegenrichtung)",
+      "target": "h7",
+      "description": "Verteidigt Uke die erste Richtung, wird über die andere Seite in Tate-shiho-gatame kontrolliert.",
+      "source": "VIBSS – Anwendungshilfe Umdreher",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Halbnelson-Umdreher",
+      "target": "h0",
+      "description": "Kontrolle an Schulter und Nacken zum Umdrehen und zur Kesa-gatame-Position.",
+      "source": "JudoHD – Anwendungsaufgaben Boden",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Iatskevich Juji-gatame Roll",
+      "target": "k1",
+      "description": "Rollender Armhebel aus der Turtle-Kontrolle.",
+      "source": "KL Judo – Riding Turtle",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Adams Juji-gatame Roll (2 Varianten)",
+      "target": "k1",
+      "description": "Von Neil Adams benannte Rollarmhebel gegen die Bank.",
+      "source": "KL Judo – Riding Turtle",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Traineau Juji-gatame Roll",
+      "target": "k1",
+      "description": "Rollender Juji-gatame-Eingang gegen die Bank.",
+      "source": "KL Judo – Riding Turtle",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Ohten-gatame / Rollbankhebel",
+      "target": "k1",
+      "description": "Traditioneller Kreuzarmhebel über eine Rolle gegen die Bank.",
+      "source": "Erik Zimmermann – 1. Dan",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Rollbankwürger (Rollwürger)",
+      "target": "w4",
+      "description": "Rolle von der Bankposition mit Kragenfixierung; Zuordnung als Okuri-eri-jime-Gruppe.",
+      "source": "Bayerischer Judo-Verband – Rollbankwürger",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Koshi-jime / Laufwürger",
+      "target": "w4",
+      "description": "Kragenkontrolle gegen die Bank, ggf. durch Umgehen oder Rollen.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Rolling Kataha-jime",
+      "target": "w5",
+      "description": "Einflügelwürge mit rollendem Eingang gegen Turtle.",
+      "source": "KL Judo – Riding Turtle",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Sode-guruma-jime gegen Turtle",
+      "target": "w8",
+      "description": "Ärmelradwürge aus oberer Bankkontrolle.",
+      "source": "KL Judo – Riding Turtle",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Briggs Sankaku",
+      "target": "w10",
+      "description": "Sankaku-Eingang aus der Banklage; Abschluss als Sankaku-jime bei korrekter Würgekonstruktion.",
+      "source": "KL Judo – Riding Turtle",
+      "uncertain": true
+    },
+    {
+      "start": "s7",
+      "name": "Straddling Sankaku / Leg Sankaku",
+      "target": "w10",
+      "description": "Dreieckskontrolle aus der Bankposition; kann auch zum Halten oder Armhebel führen.",
+      "source": "KL Judo – Riding Turtle",
+      "uncertain": true
+    },
+    {
+      "start": "s7",
+      "name": "Kata-gatame Roll",
+      "target": "h3",
+      "description": "Mit Kopf-Arm-Kontrolle rollen und anschließend Kata-gatame halten.",
+      "source": "KL Judo – Riding Turtle",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Kami-shiho-gatame Roll",
+      "target": "h4",
+      "description": "Rollende Bankumkehr mit oberer Vierpunktehalte als Abschluss.",
+      "source": "KL Judo – Riding Turtle",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Tate-shiho-gatame Roll / Waikiki Turnover",
+      "target": "h7",
+      "description": "Bank wenden, anschließend Tate-shiho-gatame halten.",
+      "source": "KL Judo – Riding Turtle",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Abklemmen des Arms → Waki-gatame",
+      "target": "k4",
+      "description": "Armfessel gegen Bank wird zu einem Achselstreckhebel weitergeführt.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Abklemmen des Arms → Ura-gatame",
+      "target": "h9",
+      "description": "Armfessel und Lagewechsel zur Ura-gatame-Kontrolle.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": false
+    },
+    {
+      "start": "s7",
+      "name": "Marhenke-Dreher / Marhenke-Würger",
+      "target": "w1",
+      "description": "Historischer Kreuzwürge-Angriff gegen die Bank von vorne; genaue Juji-jime-Griffform variiert.",
+      "source": "Erik Zimmermann – 1. Dan",
+      "uncertain": true
+    },
+    {
+      "start": "s7",
+      "name": "Japaner-Umdreher (Doppelrevers)",
+      "target": null,
+      "description": "Benannter Umdreheinstieg aus DJB-Trainingsmaterial; die Zieltechnik hängt von konkreter Ausführung und Reaktion ab.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": true
+    },
+    {
+      "start": "s7",
+      "name": "Kashiwazaki-Umdreher (Jackenzipfel/Gürtel)",
+      "target": null,
+      "description": "Benannter Umdreheinstieg aus DJB-Trainingsmaterial; die Zieltechnik hängt von konkreter Ausführung und Reaktion ab.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": true
+    },
+    {
+      "start": "s7",
+      "name": "Tölzer-Dreher",
+      "target": null,
+      "description": "Benannter Umdreheinstieg aus DJB-Trainingsmaterial; die Zieltechnik hängt von konkreter Ausführung und Reaktion ab.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": true
+    },
+    {
+      "start": "s7",
+      "name": "Pauschke-Dreher",
+      "target": null,
+      "description": "Benannter Umdreheinstieg aus DJB-Trainingsmaterial; die Zieltechnik hängt von konkreter Ausführung und Reaktion ab.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": true
+    },
+    {
+      "start": "s7",
+      "name": "Olimgawa-Dreher",
+      "target": null,
+      "description": "Benannter Umdreheinstieg aus DJB-Trainingsmaterial; die Zieltechnik hängt von konkreter Ausführung und Reaktion ab.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": true
+    },
+    {
+      "start": "s7",
+      "name": "Ungvar-Dreher",
+      "target": null,
+      "description": "Benannter Umdreheinstieg aus DJB-Trainingsmaterial; die Zieltechnik hängt von konkreter Ausführung und Reaktion ab.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": true
+    },
+    {
+      "start": "s7",
+      "name": "Akimoto-Dreher",
+      "target": null,
+      "description": "Benannter Umdreheinstieg aus DJB-Trainingsmaterial; die Zieltechnik hängt von konkreter Ausführung und Reaktion ab.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": true
+    },
+    {
+      "start": "s8",
+      "name": "Halbnelson-Umdreher",
+      "target": "h0",
+      "description": "Uke aus flacher Bauchlage in Rückenlage drehen und Kesa-gatame ansetzen.",
+      "source": "VIBSS – Anwendungshilfe Umdreher",
+      "uncertain": false
+    },
+    {
+      "start": "s8",
+      "name": "Halbnelson-Umdreher zur Brustkontrolle",
+      "target": "h6",
+      "description": "Uke wird in Rückenlage gedreht; Mune-gatame wird hier als Yoko-shiho-Familie geführt.",
+      "source": "VIBSS – Anwendungshilfe Umdreher",
+      "uncertain": false
+    },
+    {
+      "start": "s8",
+      "name": "Schlüsseldreher / Sankaku-Schlüssel",
+      "target": "h7",
+      "description": "Körper-/Beinkontrolle führt zur Drehung aus Bauchlage in Tate-shiho-gatame (Mount).",
+      "source": "VIBSS – Anwendungshilfe Umdreher",
+      "uncertain": false
+    },
+    {
+      "start": "s8",
+      "name": "Bauchlage-Umdreher zur Kami-shiho-gatame",
+      "target": "h4",
+      "description": "Uke aus der Bauchlage wenden und in oberer Vierpunktehalte fixieren.",
+      "source": "Judo-Club Aurich – Bodentechniken",
+      "uncertain": false
+    },
+    {
+      "start": "s8",
+      "name": "Bauchlage-Umdreher zur Gyaku-kesa-gatame",
+      "target": "h2",
+      "description": "Nach dem Wenden gegen die Bauchlage erfolgt eine umgekehrte Schärpenhalte; Systematik abhängig von Variante.",
+      "source": "Judo-Club Aurich – Bodentechniken",
+      "uncertain": true
+    },
+    {
+      "start": "s8",
+      "name": "Seitliches Heranziehen über Knie und Oberarm",
+      "target": "h6",
+      "description": "Uke wird über die Beine in Rückenlage gezogen und anschließend mit Mune-gatame kontrolliert.",
+      "source": "JudoHD – Anwendungsaufgaben Boden",
+      "uncertain": false
+    },
+    {
+      "start": "s8",
+      "name": "Umdreher zum Nami-juji-gatame",
+      "target": "k1",
+      "description": "Bauchlage wird durch Umdrehen mit anschließender Armkontrolle zum Kreuzarmhebel angegriffen.",
+      "source": "Erik Zimmermann – 1. Dan",
+      "uncertain": false
+    },
+    {
+      "start": "s8",
+      "name": "Sankaku-Umdreher zum Armhebel",
+      "target": "k7",
+      "description": "Aus Bauchlage zur Sankaku-Kontrolle drehen; Armhebel aus der Dreiecksposition.",
+      "source": "Erik Zimmermann – 1. Dan",
+      "uncertain": true
+    },
+    {
+      "start": "s8",
+      "name": "Rollbankwürger / Wanner-Würger",
+      "target": "w4",
+      "description": "Kragenangriff kann auch bei tiefer Bauchlage begonnen werden; exakte Einordnung des Wanner-Würgers ausführungsspezifisch.",
+      "source": "Bayerischer Judo-Verband – Rollbankwürger",
+      "uncertain": true
+    },
+    {
+      "start": "s8",
+      "name": "Armfessel nach Bauchlage → Waki-gatame",
+      "target": "k4",
+      "description": "Uke sperrt mit den Armen; isolierter Arm wird zum Waki-gatame angegriffen.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": true
+    },
+    {
+      "start": "s8",
+      "name": "Sankaku-Einstieg nach Umdrehen",
+      "target": "w10",
+      "description": "Nur wenn nach dem Wenden tatsächlich eine würgende Dreieckskontrolle besteht.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": true
+    },
+    {
+      "start": "s8",
+      "name": "Kashiwazaki-Umdreher",
+      "target": "h6",
+      "description": "Jacken- oder Gürtelkontrolle, anschließende seitliche Halteposition; Zielausführung variabel.",
+      "source": "DJB – Rahmentrainingskonzeption",
+      "uncertain": true
+    }
+  ]
+}

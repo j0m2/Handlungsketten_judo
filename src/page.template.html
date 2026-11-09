@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Judo-Bodentechniknetz – interaktives Flowchart</title><meta name="description" content="Interaktives Judo-Bodentechniknetz mit 32 Kodokan-Techniken, acht Einstiegssituationen, Übergangsbeschreibungen und eigenem Ketteneditor.">
+<style>__JUDO_INLINE_CSS__</style></head>
+<body><header><h1>Judo · vernetztes Bodentechnik-Flowchart</h1><p>Online & offline · 8 Startpositionen · 32 Kodokan-Techniken · alle drei Technikgruppen · Varianten · Kreise · Querverbindungen · eigene Ketten speichern · alle Übergänge erklärt</p></header>
+<main>
+<div class="bar"><select id="start" aria-label="Startposition auswählen"><option value="">Alle acht Startpositionen</option></select><input id="search" type="search" placeholder="Technik / Variante suchen …" aria-label="Technik suchen"><button id="openBuilder" type="button">Ketteneditor öffnen</button><button id="circles" type="button">↻ Kreis hervorheben</button><button id="reset" type="button">Zurücksetzen</button><button id="svgSave" type="button">SVG-Ansicht speichern</button></div>
+<div class="leg"><span><i class="lgbox s"></i>Einstieg</span><span><i class="lgbox h"></i>Haltegriff</span><span><i class="lgbox k"></i>Hebel</span><span><i class="lgbox w"></i>Würger</span><span><i class="linksolid"></i>erfasster Übergang</span><span><i class="linkdashed"></i>bedingt / Zuordnung unsicher</span></div>
+<div class="chips"><label><input id="showCross" type="checkbox" checked> Querverbindungen</label><label><input id="showMaybe" type="checkbox" checked> Bedingte Verbindungen</label><span id="stats" class="stats"></span></div>
+<div class="layout"><div class="board"><svg id="graph" viewBox="-40 -30 1970 1260" role="img" aria-label="Interaktives Judo-Techniknetz mit gerichteten Verbindungen" xmlns="http://www.w3.org/2000/svg"></svg><div class="zoom"><button id="minus" title="Verkleinern">−</button><button id="fit" title="Gesamtes Diagramm anzeigen">⌗</button><button id="plus" title="Vergrößern">+</button></div></div><aside class="detail" id="detail" aria-live="polite"></aside></div>
+<section class="builder" id="builder" aria-labelledby="builderTitle">
+<h2 id="builderTitle">Eigene Technik-Ketten erstellen und speichern</h2>
+<p class="muted">Startposition wählen, verfügbare Folgetechnik hinzufügen, beliebig verlängern und benennen. Es sind nur Übergänge möglich, die bereits im Netz erfasst sind. Ein Rücksprung zu einer vorhandenen Technik wird als Kreis erkannt und nicht doppelt eingefügt.</p>
+<div class="buildergrid">
+<label class="field">Einstiegssituation<select id="builderStart"><option value="">Bitte Startposition auswählen …</option></select></label>
+<label class="field">Name der Technik-Kette<input type="text" id="builderName" maxlength="100" placeholder="z. B. Halbguard – Kimura-Kette"></label>
+</div>
+<div id="builderSequence" class="editseq" aria-live="polite"></div>
+<details id="builderStepsPanel" class="resources" style="margin:8px 0 14px"><summary>Beschreibungen der Schritte meiner Kette</summary><div id="builderStepNotes" class="transition-stepnotes"></div></details>
+<div class="buildergrid">
+<label class="field">Nächste mögliche Technik<select id="builderNext" aria-label="Nächste Technik"></select></label>
+<label class="field">Notizen / Reaktion von Uke<textarea id="builderNote" rows="2" maxlength="2000" placeholder="Optional: Abwehrreaktion, Positionswechsel, Ausführung …"></textarea></label>
+</div>
+<div id="builderNextDescription" class="note" aria-live="polite">Wähle einen Einstieg und eine Folgetechnik, um die Übergangsbeschreibung zu sehen.</div>
+<div class="subbar"><button id="builderAppend" class="primary" type="button">+ Technik anhängen</button><button id="builderUndo" type="button">Letzten Schritt entfernen</button><button id="builderNew" type="button">Neue Kette</button><label class="field">Beispielkette<select id="builderExample"><option value="">Beispiel auswählen …</option></select></label><button id="copySelectedChain" type="button">Beispielkette übernehmen</button><label class="clickswitch"><input id="builderClickMode" type="checkbox"> Folgetechniken direkt im Diagramm anklicken</label></div>
+<div class="subbar"><button id="builderSave" class="primary" type="button">Kette speichern</button><button id="chainsExport" type="button">Meine Ketten als JSON sichern</button><button id="chainsImportButton" type="button">Ketten aus JSON importieren</button><button id="chainsExportHtml" type="button">Offline-HTML mit Ketten sichern</button><input id="chainsImportInput" type="file" accept=".json,application/json" hidden></div>
+<div id="builderStatus" class="status" role="status" aria-live="polite">Wähle eine Startposition, um deine erste Technik anzuhängen.</div>
+<h3>Meine gespeicherten Ketten <span id="savedCount" class="optional"></span></h3>
+<div class="savedlist" id="savedChains"></div>
+<p class="optional">Die Ketten werden soweit vom Browser erlaubt lokal gespeichert. Für eine sichere, browserunabhängige Aufbewahrung exportiere eine JSON-Sicherung oder eine vollständige HTML-Datei einschließlich deiner Ketten. Beide Exportformate funktionieren ohne Internet.</p>
+</section>
+<details class="resources" id="transitionCatalog"><summary>Alle 162 Übergänge mit kurzer Erklärung</summary>
+<p class="muted">Jeder Eintrag beschreibt eine mögliche Abwehrreaktion, einen Griff- oder einen Positionswechsel. Für nur als Technikfolge dokumentierte Verbindungen sind die notwendigen Positionsänderungen als bedingt beschrieben. (?) bedeutet, dass die genaue Zuordnung vom Ablauf abhängt.</p>
+<input id="transitionSearch" type="search" placeholder="Übergänge, Techniken oder Reaktionen durchsuchen …" aria-label="Alle Übergänge durchsuchen" style="width:100%;max-width:600px;padding:10px;border:1px solid #b7c9dc;border-radius:8px;font:inherit;margin:8px 0 4px">
+<div id="transitionCount" class="muted"></div>
+<div class="transition-scroll"><table class="transition-table"><thead><tr><th>Ausgang</th><th>Folgetechnik</th><th>Wie erfolgt der Übergang?</th></tr></thead><tbody id="transitionRows"></tbody></table></div>
+</details>
+<details class="resources" id="namedAttacksPanel"><summary>Benannte Einstiegsangriffe gegen Bankposition und Bauchlage (Judo)</summary><p class="muted">Die benannten Umdreher sind Einstiegsmethoden, keine zusätzlichen Kodokan-Haupttechniken. Ein Fragezeichen kennzeichnet eine variantenabhängige oder noch nicht sicher bestimmte Zieltechnik. Die Kanten und Ketten sind im Techniknetz hinterlegt.</p><div id="namedAttacksList"></div></details>
+<details class="resources"><summary>Namensvarianten der 32 Haupttechniken</summary><div id="aliasList" class="cards" style="margin-top:13px"></div></details>
+<details class="resources"><summary>Recherchierte externe Quellen (nur bei Internetverbindung erreichbar)</summary><ul id="sources"></ul></details>
+<p class="foot">Die Anwendung selbst ist vollständig offline; es werden weder Schriftarten noch Bibliotheken oder Diagrammdaten aus dem Internet geladen. Nicht jede zusammengesetzte Kette ist als vollständiger Ablauf einzeln demonstriert. Übergänge über Sweep, Guard Recovery, Pass oder Rückenübernahme sind in den jeweiligen Beschreibungen benannt. Nicht jede Wechselbeschreibung ist eine aus einer Quelle wörtlich belegte Reaktion; bedingte Fälle sind als solche formuliert. Techniken mit gleichem Hauptnamen, aber unterschiedlicher Variante werden in der Hauptansicht als ein Knoten geführt. Training nur unter fachkundiger Anleitung und gemäß der jeweiligen Regelordnung.</p>
+</main>
+<script type="application/json" id="embeddedCustomData">[]</script>
+<script>__JUDO_INLINE_JS__</script></body></html>
