@@ -1,2 +1,4 @@
 AGENTS.md
 .DS_STORE
+*.pyc
+tests/__pycache__/*
